@@ -1260,7 +1260,14 @@ body {
     margin-inline: auto;
   }
 
+ /**
+   * HERO
+   */
 
+  .paintball .text-wrapper {
+    padding-top: 4rem;
+    margin-bottom: 0;
+}
 
   /**
    * UPCOMING
