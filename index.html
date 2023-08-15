@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- primary meta tags -->
-  <title>X-Element: Home</title>
+  <title>Welcome to X-Element</title>
   <meta name="title" content="X-Element">
   <meta name="description" content="Welcome to X-Element: Where Passion Meets X-Cellence in e-Sports">
 
@@ -18,15 +18,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&family=Work+Sans:wght@600&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&&display=swap"
     rel="stylesheet">
 
   <!-- custom css link -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <!-- preload images -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
-  <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png">
+  <link rel="preload" as="image" href="./assets/images/cta-banner.png">
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-banner-bg.png"> -->
 
 </head>
 
@@ -37,7 +37,7 @@
 <header class="header active" data-header>
   <div class="container">
 
-    <a href="#" class="logo">
+    <a href="/index.html" class="logo">
       <img src="./logo.png" width="60" height="60" alt="x-element home">
     </a>
 
@@ -45,11 +45,11 @@
       <ul class="navbar-list">
 
         <li class="navbar-item">
-          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          <a href="/index.html" class="navbar-link" data-nav-link>Home</a>
         </li>
 
         <li class="navbar-item">
-          <a href="#about" class="navbar-link" data-nav-link>About</a>
+          <a href="/about.html" class="navbar-link" data-nav-link>About</a>
         </li>
         
         <li class="navbar-item">
@@ -84,10 +84,6 @@
 
   <section class="section teams" aria-label="our teams">
     <div class="container">
-
-      <!-- <p class="section-subtitle" data-reveal="bottom">
-        Our Squads
-      </p> -->
 
       <h2 class="h2 section-title" data-reveal="bottom">
         Welcome to <span class="span">X-Element</span>
@@ -149,7 +145,7 @@
 
       </ul>
 
-      <div class="paintball container" data-reveal="left">
+      <div class="paintball" data-reveal="left">
 
         <div class="image-wrapper">
           <img class="card-image" src="assets/images/paintball.jpg" alt="Man in green jacket holding paintball marker">
@@ -157,12 +153,12 @@
 
         <div class="text-wrapper">
           <p class="paintball-desc">Are you trying to take your passion for gaming to the most X-Treme level?
-            Step into the arena of immersive Paintball battles that go far beyond a screen.<br>
+            Step into the immersive arena of Paintball battles that go far beyond a screen.<br>
             <span class="span1">Equipped with paintball markers and protective gear, our players navigate thrilling maps 
               relying on stealth, accuracy, and teamwork to triumph over opponents.<br></span>
             <span class="span2">We blend cunning tactics, lightning-fast reflexes, and seamless coordination to dominate 
               the competition and emerge as champions of the Paintball field.</span>
-          </p>
+            </p>
         </div>
 
       </div>
@@ -170,10 +166,10 @@
     </div>
   </section>
 
-  <section class="section roles" aria-label="we are hiring">
+  <section class="section roles" aria-label="we are recruiting">
     <div class="container">
 
-      <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
+      <p class="section-subtitle" data-reveal="bottom">
         Ready to X-Cell?
       </p>
 
@@ -189,18 +185,20 @@
             Below, you will find a list of positions we currently have available.<br>
             <span>If you're looking for an X-Citing opportunity to contribute your talents and 
             secure your spot on a dynamic team, we encourage you to apply.</span>
-          </p>
+            </p>
         </div>
 
         <div class="image-wrapper">
-          <img class="card-image" src="assets/images/shield.jpg" alt="X-Element Shield Logo">
+          <a href="#">
+            <img class="card-image" src="assets/images/logo-grayscale.png" alt="X-Element Grayscale Logo">
+          </a>
         </div>
 
       </div>
 
-      <div class="role-names" data-reveal="right">
+      <div class="role-names">
 
-        <p class="section-subtitle">
+        <p class="section-subtitle" data-reveal="left">
           Available Positions:
         </p>
 
@@ -331,174 +329,22 @@
   </section>
 
   <section class="cta" data-reveal="bottom">
-    <div class="hero has-before">
+    <div class="banner has-before">
       <div class="container">
 
         <p class="section-subtitle">X Marks the Spot</p>
 
-        <h1 class="h1 title hero-title">Leave Your Mark Today!</h1>
+        <h1 class="h1 title cta-title">Leave Your Mark Today!</h1>
 
         <a href="#" class="btn" data-btn="">Join Our Team</a>
 
-        <div class="hero-banner">
-          <img src="./assets/images/hero-banner.png" width="850" height="414" alt="hero banner" class="w-100">
+        <div class="cta-banner">
+          <img src="./assets/images/cta-banner.png" width="850" height="414" alt="call to action banner" class="w-100">
         </div>
 
       </div>
     </div>
   </section>
-  
-  <!-- 
-    - #UPCOMING
-  -->
-
-  <!-- <section class="section upcoming" aria-labelledby="upcoming-label" id="tournament">
-    <div class="container">
-
-      <p class="section-subtitle" id="upcoming-label" data-reveal="bottom">
-        Upcoming Matches
-      </p>
-
-      <h2 class="h2 section-title" data-reveal="bottom">
-        Battles Extreme <br> Masters <span class="span">Tournament</span>
-      </h2>
-
-      <p class="section-text" data-reveal="bottom">
-        Our success in creating business solutions is due in large part to our talented and highly committed team.
-      </p>
-
-      <ol class="upcoming-list">
-
-        <li class="upcoming-item">
-
-          <div class="upcoming-card left has-before" data-reveal="left">
-
-            <img src="./assets/images/team-logo-1.png" width="86" height="81" loading="lazy"
-              alt="Purple Death Cadets" class="card-banner">
-
-            <h3 class="h3 card-title">Purple Death Cadets</h3>
-
-            <div class="card-meta">Group 04 | Match 06th</div>
-
-          </div>
-
-          <div class="upcoming-time" data-reveal="bottom">
-            <time class="time" datetime="10:00">10:00</time>
-
-            <time class="date" datetime="2022-05-25">25TH May 2024</time>
-
-            <div class="social-wrapper">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitch"></ion-icon>
-              </a>
-            </div>
-          </div>
-
-          <div class="upcoming-card right has-before" data-reveal="right">
-
-            <img src="./assets/images/team-logo-2.png" width="86" height="81" loading="lazy"
-              alt="Trigger Brain Squad" class="card-banner">
-
-            <h3 class="h3 card-title">Trigger Brain Squad</h3>
-
-            <div class="card-meta">Group 04 | Match 06th</div>
-
-          </div>
-
-        </li>
-
-        <li class="upcoming-item">
-
-          <div class="upcoming-card left has-before" data-reveal="left">
-
-            <img src="./assets/images/team-logo-3.png" width="86" height="81" loading="lazy"
-              alt="The Black Hat Hackers" class="card-banner">
-
-            <h3 class="h3 card-title">The Black Hat Hackers</h3>
-
-            <div class="card-meta">Group 05 | Match 02nd</div>
-
-          </div>
-
-          <div class="upcoming-time" data-reveal="bottom">
-            <time class="time" datetime="12:30">12:30</time>
-
-            <time class="date" datetime="2024-01-10">10TH Jan 2024</time>
-
-            <div class="social-wrapper">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitch"></ion-icon>
-              </a>
-            </div>
-          </div>
-
-          <div class="upcoming-card right has-before" data-reveal="right">
-
-            <img src="./assets/images/team-logo-4.png" width="86" height="81" loading="lazy"
-              alt="Your Worst Nightmare" class="card-banner">
-
-            <h3 class="h3 card-title">Your Worst Nightmare</h3>
-
-            <div class="card-meta">Group 05 | Match 02nd</div>
-
-          </div>
-
-        </li>
-
-        <li class="upcoming-item">
-
-          <div class="upcoming-card left has-before" data-reveal="left">
-
-            <img src="./assets/images/team-logo-5.png" width="86" height="81" loading="lazy"
-              alt="Witches And Quizards" class="card-banner">
-
-            <h3 class="h3 card-title">Witches And Quizards</h3>
-
-            <div class="card-meta">Group 02 | Match 03rd</div>
-
-          </div>
-
-          <div class="upcoming-time" data-reveal="bottom">
-            <time class="time" datetime="04:20">04:20</time>
-
-            <time class="date" datetime="2024-12-15">15th Dec 2024</time>
-
-            <div class="social-wrapper">
-              <a href="#" class="social-link">
-                <ion-icon name="logo-youtube"></ion-icon>
-              </a>
-
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitch"></ion-icon>
-              </a>
-            </div>
-          </div>
-
-          <div class="upcoming-card right has-before" data-reveal="right">
-
-            <img src="./assets/images/team-logo-6.png" width="86" height="81" loading="lazy"
-              alt="Resting Bitch Faces" class="card-banner">
-
-            <h3 class="h3 card-title">Resting Bitch Faces</h3>
-
-            <div class="card-meta">Group 02 | Match 03rd</div>
-
-          </div>
-
-        </li>
-
-      </ol>
-
-    </div>
-  </section> -->
 
 </main>
 
@@ -511,8 +357,8 @@
 
       <div class="footer-brand">
 
-        <a href="#" class="logo">
-          <img src="logo.png" class="footer-logo" loading="lazy" alt="X-Element logo">
+        <a href="/index.html" class="logo">
+          <img src="./assets/images/shield.jpg" class="footer-logo" loading="lazy" alt="X-Element Shield logo">
         </a>
 
         <div class="footer-wrapper">
@@ -647,23 +493,10 @@
     <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
   </a> -->
 
-
-
-
-
-  <!-- 
-    - #CUSTOM CURSOR
-  -->
-
+  <!-- CUSTOM CURSOR -->
   <div class="cursor" data-cursor></div>
 
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
+  <!-- custom js links -->
   <script src="./assets/js/script.js"></script>
 
   <!-- 
