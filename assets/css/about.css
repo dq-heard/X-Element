@@ -135,8 +135,14 @@ body {
     overflow-x: hidden;
 }
 
-.culture span {
+.culture .p1,
+.culture .p2,
+.culture img {
     display: none;
+}
+
+.culture .image-wrapper {
+    margin-bottom: -4rem;
 }
 
 /*-----------------------------------*\
@@ -145,9 +151,13 @@ body {
 
 @media (min-width: 575px) {
     /* CULTURE */
-    .culture-desc .span2 {
+    .culture-desc .p2 {
         display: block;
         padding-top: 1.5rem;
+    }
+
+    .culture .image-wrapper {
+        margin-bottom: -2rem;
     }
 }
 
@@ -160,27 +170,53 @@ body {
 
     .natures .top-half {
         display: flex;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 
     .natures .text-wrapper {
-        width: 95%;
+        width: 100%;
     }
 
     .natures .image-wrapper {
         display: block;
         width: 95%;
-        padding-top: 5.5rem;
+        padding-top: 4rem;
     }
 
     /* CULTURE */
-    .culture-desc .span1 {
+    .culture .image-wrapper {
+        display: flex;
+        gap: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    .culture .shield-logo {
+        display: block;
+        width: 220px;
+        /* margin: 0 auto;
+        padding-top: 3rem; */
+    }
+
+    .culture-desc .p1 {
         display: block;
         padding-top: 1.5rem;
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
+    .culture .container {
+        max-width: 960px;
+    }
+    .culture .shield-logo {
+        width: 200px;
+        /* margin: 0 auto;
+        padding-top: 3rem; */
+    }
+
+    .culture .image-wrapper p {
+        padding-top: 1.5rem;
+    }
+
     #spirit {
         padding-left: 115%;
         padding-right: 20%;
