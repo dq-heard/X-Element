@@ -297,6 +297,18 @@ body {
   z-index: 4;
 }
 
+.header .logo {
+  display: flex;
+  align-items: center;
+  font-weight: var(--weight-bold);
+  font-size: var(--fontSize-3);
+  text-transform: uppercase;
+}
+
+.header .logo p {
+  padding-top: .75rem;
+}
+
 .header.active {
   position: fixed;
   animation: slideUP 1s ease forwards;
