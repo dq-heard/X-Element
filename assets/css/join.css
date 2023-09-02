@@ -6,7 +6,7 @@
 
 body {
     background-color: var(--bg-darker-purple);
-    background-image: url("../images/body-bg-4.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/body-bg-4.jpg");
     overflow-x: hidden;
 }
 
@@ -25,13 +25,158 @@ iframe {
     padding-bottom: .5rem;
 }
 
+.recruit iframe {
+    width: 70%;
+    height: auto;
+}
+
+/*-----------------------------------*\
+  #ORIENTATION
+\*-----------------------------------*/
+  
+.orientation { 
+    padding-bottom: 0;
+    text-align: center;
+}
+  
+.video-desc .btn {
+    margin: 2rem auto 0;
+}
+
+/*-----------------------------------*\
+  #CONNECT
+\*-----------------------------------*/
+
+.connect {
+    padding-top: 8rem;
+    padding-bottom: 0;
+    text-align: center;
+}
+  
+.contact-inputs {
+    gap: 0;
+}
+  
+.contact-inputs .contact-content {
+    clip-path: var(--clip-path-3);
+}
+  
+.contact-content {
+    background-color: var(--bg-purple-alpha-30);
+    padding: .75rem 1rem .25rem;
+    margin-bottom: 1rem;
+}
+  
+.contact-content textarea {
+    resize: none;
+}
+  
+.contact-input {
+    width: 100%;
+    background-color: transparent;
+    color: var(--text-white);
+    border: none;
+    outline: none;
+    padding: .25rem .5rem .5rem 0;
+}
+
 
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
-  
+.footer-top .container {
+    display: grid;
+    gap: 35px;
+}
+
 .footer-brand { margin: 0; }
 
 .footer-logo { display: block; }
 
 .footer-text { display: none; }
+
+.footer-wrapper { padding-bottom: 1.5rem; }
+
+.footer-list { padding-bottom: 3rem; }
+
+.input-field::placeholder { color: var(--text-gainsboro); }
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media (max-width: 375px) {
+    iframe {
+        width: 275px;
+    }
+
+    .contact-form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media (min-width: 575px) {
+    .join iframe {
+        width: 480px;
+        height: 360px;
+    }
+
+    .footer-top .container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-inputs {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .contact-form {
+        padding-left: 0;
+        padding-right: 0;
+        width: 450px;
+        margin: 0 auto;
+    }
+
+    .footer-brand { display: block; }
+
+    .footer-text { 
+        display: block;
+        margin-top: -2rem; 
+    }
+}
+
+@media (min-width: 768px) {
+    .intro {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .intro p {
+        max-width: 400px;
+    }
+
+    .footer-top {
+        padding-top: 8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .join iframe {
+        width: 720px;
+        height: 480px;
+    }
+
+    .intro iframe {
+        width: 480px;
+        height: 360px;
+    }
+
+    .intro p {
+        padding-top: 10rem;
+    }
+
+    .footer-top .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
