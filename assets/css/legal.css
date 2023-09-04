@@ -1,0 +1,28 @@
+@import url(style.css);
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+body {
+    background-image: url("../images/legal-bg.jpg");
+    background-repeat: repeat;
+}
+
+/*-----------------------------------*\
+  #POLICY
+\*-----------------------------------*/
+
+h2, h3, h4 { 
+    padding: 1.5rem 0 .5rem;
+    color: var(--text-champagne-pink);
+}
+
+li, p { padding: .5rem 0; }
+
+p a { 
+    display: inline;
+    color: var(--text-champagne-pink); 
+}
+
+p a:hover { color: var(--text-pink); }

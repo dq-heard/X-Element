@@ -733,10 +733,6 @@ body {
     padding: 0 10px;
   }
 
-  /* HEADER */
-
-  /* .header .logo img { width: 160px; } */
-
   /* FOOTER */
 
   .footer-top .container { 
@@ -784,7 +780,6 @@ body {
   }
 
   .paintball .image-wrapper {
-    /* max-width: 350px; */
     margin: 0;
   }
 
@@ -930,13 +925,6 @@ body {
   /* ROLES */
 
   .welcome { padding-top: 1rem; }
-
-  /**
-   * FOOTER
-   */
-   
-  /* .footer-top .container { grid-template-columns: repeat(4, 1fr); } */
-
 }
 
 @media (min-width: 1200px) {

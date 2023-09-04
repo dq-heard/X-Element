@@ -38,14 +38,16 @@ body {
     display: none;
 }
 
-.role-interest a { display: inline; }
+.role-interest a, .bio-desc a { display: inline; }
 
-.role-interest strong {
+.role-interest strong,
+.bio-desc strong {
     font-weight: var(--weight-semibold);
     color: var(--text-champagne-pink);
 }
 
-.role-interest strong:hover { color: var(--text-pink); }
+.role-interest strong:hover,
+.bio-desc strong:hover { color: var(--text-pink); }
 
 /*-----------------------------------*\
   #MEDIA QUERIES
@@ -76,9 +78,6 @@ body {
         padding-top: 1rem;
     }
 
-    .staff-img {
-        margin: 0 auto 2rem;
-    }
 }
 
 @media (min-width: 992px) {
