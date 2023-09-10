@@ -13,6 +13,8 @@ body {
   #POLICY
 \*-----------------------------------*/
 
+.policy, .terms { padding-top: 12rem; }
+
 h2, h3, h4 { 
   padding: 1.5rem 0 .5rem;
   color: var(--text-champagne-pink);

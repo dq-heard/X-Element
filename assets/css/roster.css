@@ -14,7 +14,7 @@ body {
   #ELEMENTS
 \*-----------------------------------*/
 
-.elements {padding-top: 10rem; }
+.elements { padding-top: 14rem; }
 
 .natures .section-subtitle {
     padding-top: 1.5rem;
@@ -61,6 +61,8 @@ body {
 }
 
 .staff h3 { padding-top: 3rem; }
+
+.custom-swiper-button-next, .custom-swiper-button-prev { display: none; }
 
 .swiper-pagination-bullet { background: var(--text-white); }
 
@@ -120,6 +122,35 @@ body {
         display: block;
         width: 95%;
         padding-top: 4rem;
+    }
+
+    .custom-swiper-button-next, .custom-swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        margin-top: -25px;
+        z-index: 10;
+        cursor: pointer;
+        display: block;
+        opacity: 0.5;
+        color: var(--bg-purple);
+    }
+    
+    ion-icon {
+        width: 75px;
+        height: 75px;
+    }
+      
+    .custom-swiper-button-next {
+        right: 50px;
+    }
+      
+    .custom-swiper-button-prev {
+        left: 50px;
+    }
+      
+    .custom-swiper-button-next:hover, 
+    .custom-swiper-button-prev:hover {
+        opacity: 1;
     }
 }
 

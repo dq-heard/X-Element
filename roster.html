@@ -177,7 +177,7 @@
                   <img
                     class="staff-img"
                     src="./assets/images/blob-7283ff5.png"
-                    alt="Future picture"
+                    alt="BigBigSpoon picture"
                   />
 
                   <div class="staff-data">
@@ -218,6 +218,12 @@
                   </div>
                 </div>
               </div>
+            </div>
+            <div class="custom-swiper-button-prev">
+              <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="custom-swiper-button-next">
+              <ion-icon name="chevron-forward-outline"></ion-icon>
             </div>
             <div class="swiper-pagination"></div>
           </div>
@@ -305,11 +311,26 @@
         },
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".custom-swiper-button-next",
+          prevEl: ".custom-swiper-button-prev",
         },
       });
     </script>
 
     <!-- custom js link -->
     <script src="./assets/js/script.js"></script>
+
+    <!-- ionicon links -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
