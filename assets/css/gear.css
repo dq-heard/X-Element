@@ -79,8 +79,8 @@ body {
 .merch-card.right .modal-btn { clip-path: var(--clip-path-7); }
 
 .merch-card .merch-img { 
-    width: 30%;
-    border-radius: var(--radius-5);
+  width: 30%;
+  border-radius: var(--radius-5);
 }
 
 .merch-card.right .merch-img { order: 1; }
@@ -114,25 +114,25 @@ body {
 
 /* The Modal (background) */
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
-    margin: 50% auto;
-    padding: 20px;
-    border: 1px solid var(--text-pink);
-    width: 80%;
-    border-radius: var(--radius-5);
+  background-color: #fefefe;
+  margin: 50% auto;
+  padding: 20px;
+  border: 1px solid var(--text-pink);
+  width: 80%;
+  border-radius: var(--radius-5);
 }
 
 /*-----------------------------------*\
@@ -140,90 +140,77 @@ body {
 \*-----------------------------------*/
 
 @media (max-width: 320px) {
-    .merch-card .modal-btn {
-        bottom: -35px;
-    }
+  .merch-card .modal-btn { bottom: -35px; }
 }
 
 @media (min-width: 575px) {
+  .merch-card .modal-btn { bottom: -10px; }
 
-    .merch-card .modal-btn {
-        bottom: -10px;
-    }
-  
-    .merch-card.left .modal-btn {
-      left: auto;
-      right: -3%;
-    }
-  
-    .merch-card.right .modal-btn { left: 25%; }
+  .merch-card.left .modal-btn {
+    left: auto;
+    right: -3%;
+  }
 
-    .modal-content { margin: 15% auto; }
+  .merch-card.right .modal-btn { left: 25%; }
+
+  .modal-content { margin: 15% auto; }
 }
 
 @media (min-width: 768px) {
   
-    .merch-card::before { height: 110px; }
-  
-    .merch-card .modal-btn {
-      padding-block: 12px;
-      bottom: -10px;
-    }
+  .merch-card::before { height: 110px; }
 
-    .merch-sale .price {
-        font-size: var(--fontSize-2);
-    }
-  
-    .merch-card .card-title { --fontSize-3: 2.8rem; }
-  
-    .merch-card.left .modal-btn { right: -1%; }
-  
-    .merch-card.right .modal-btn { left: 20%; }
+  .merch-card .modal-btn {
+    padding-block: 12px;
+    bottom: -10px;
+  }
+
+  .merch-sale .price { font-size: var(--fontSize-2); }
+
+  .merch-card .card-title { --fontSize-3: 2.8rem; }
+
+  .merch-card.left .modal-btn { right: -1%; }
+
+  .merch-card.right .modal-btn { left: 20%; }
 }
 
 @media (min-width: 992px) {
   
-    .merch-item {
-      display: grid;
-      grid-template-columns: 1fr 0.5fr 1fr;
-      align-items: center;
-    }
+  .merch-item {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    align-items: center;
+  }
 
-    .merch-item.single { margin-block-end: 90px; }
-    
-    .merch-card .modal-btn {
-      left: 50%;
-      bottom: -40px;
-      transform: translateX(-50%);
-    }
+  .merch-item.single { margin-block-end: 90px; }
   
-    .merch-card.right .modal-btn { left: 40%; }
+  .merch-card .modal-btn {
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+  }
 
-    .apparel { padding-bottom: 0; }
+  .merch-card.right .modal-btn { left: 40%; }
+
+  .apparel { padding-bottom: 0; }
 }
 
 @media (min-width: 1200px) {
 
-    .merch .merch-item {
-        gap: 1.5rem;
-    }
+  .merch .merch-item { gap: 1.5rem; }
 
-    .merch-card {
-        width: 475px;
-    }
+  .merch-card { width: 475px; }
 
-    .merch-card .merch-img {
-      max-height: 180px;
-      width: auto;
-    }
-  
-    .merch-card .modal-btn { bottom: -20px; }
-  
-    .merch-card.right .modal-btn { left: 35%; }
+  .merch-card .merch-img {
+    max-height: 180px;
+    width: auto;
+  }
 
-    .apparel .merch-item:first-of-type {
-        gap: 1rem;
-    }
+  .merch-card .modal-btn { bottom: -20px; }
 
-    .modal-content { margin: 6% auto; }
+  .merch-card.right .modal-btn { left: 35%; }
+
+  .apparel .merch-item:first-of-type { gap: 1rem; }
+
+  .modal-content { margin: 6% auto; }
 }

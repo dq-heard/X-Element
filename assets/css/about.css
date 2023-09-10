@@ -1,0 +1,96 @@
+@import url(style.css);
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+body {
+  background-color: var(--bg-darker-purple);
+  background-image: url("../images/body-bg-2.jpg");
+  overflow-x: hidden;
+}
+
+/*-----------------------------------*\
+  #SEASON
+\*-----------------------------------*/
+
+.season {
+  padding-top: 10rem;
+  text-align: center;
+}
+
+.season-logo,
+.p1, .p2 {
+  display: none;
+}
+
+/*-----------------------------------*\
+  #IDENTITY
+\*-----------------------------------*/
+
+.identity { text-align: center; }
+
+/*-----------------------------------*\
+  #MUSIC
+\*-----------------------------------*/
+
+.music { text-align: center; }
+
+.music-desc { padding-bottom: 2rem; }
+
+iframe { padding-bottom: .5rem; }
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media (max-width: 375px) {
+  iframe { width: 275px; }
+}
+
+@media (min-width: 575px) {
+  .p2 {
+    display: block;
+    padding-top: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .season .image-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: -3rem;
+  }
+
+  .season .season-logo {
+    display: block;
+    width: 270px;
+    margin-top: -5rem;
+  }
+
+  .p1 {
+    display: block;
+    padding-top: 1.5rem;
+  }
+
+  .music .container { max-width: 720px; }
+
+  .songs .video-wrapper { 
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 992px) {
+  .season .container,
+  .identity .container { 
+    max-width: 940px; 
+  }
+
+  .season .image-wrapper { margin-bottom: -5rem; }
+
+  .season .season-logo {
+    width: 240px;
+    margin-top: -8rem;
+  }
+}

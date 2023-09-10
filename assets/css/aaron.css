@@ -20,23 +20,14 @@ body {
     padding-top: 9rem;
     padding-bottom: 2rem;
     text-align: center;
+    min-height: 90vh;
 }
 
-.bio h2 {
-    color: var(--text-gainsboro);
-}
+.staff-img { margin: 0 auto 2rem; }
 
-.staff-img {
-    margin: 0 auto 2rem;
-}
+.bio span, .role-interest { padding-top: 2rem; }
 
-.bio span, .role-interest {
-    padding-top: 2rem;
-}
-
-.span1, .span2 {
-    display: none;
-}
+.span1, .span2 { display: none; }
 
 .role-interest a, .bio-desc a { display: inline; }
 
@@ -70,13 +61,9 @@ body {
         gap: 2rem;
     }
 
-    .image-wrapper {
-        padding-top: 3rem;
-    }
+    .image-wrapper { padding-top: 3rem; }
 
-    .text-wrapper {
-        padding-top: 1rem;
-    }
+    .text-wrapper { padding-top: 1rem; }
 
 }
 
@@ -87,23 +74,15 @@ body {
         text-align: left;
     }
 
-    .image-wrapper {
-        padding-top: 0;
-    }
+    .image-wrapper { padding-top: 0; }
 
-    .text-wrapper {
-        padding-top: 7rem;
-    }
+    .text-wrapper { padding-top: 7rem; }
 
     .span2 { display: block; }
 
-    .staff-img {
-        width: 425px;
-    }
+    .staff-img { width: 425px; }
 }
 
 @media (min-width: 1200px) {
-    .text-wrapper {
-        padding-top: 13rem;
-    }
+    .text-wrapper { padding-top: 13rem; }
 }
