@@ -1,5 +1,5 @@
 @import url(style.css);
-@import url(roster.css);
+@import url(staff.css);
 
 /*-----------------------------------*\
   #RESET
@@ -7,9 +7,8 @@
 
 body {
     background-color: var(--bg-darker-purple);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../images/bio-bg-1.png");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../images/bio-bg-1.jpg");
     overflow-x: hidden;
-    background-position-x: 70%;
 }
 
 /*-----------------------------------*\
@@ -40,12 +39,27 @@ body {
 .role-interest strong:hover,
 .bio-desc strong:hover { color: var(--text-pink); }
 
+.about { text-align: center; }
+
+.about iframe {
+    width: 70%;
+    height: 205px;
+}
+
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+@media (max-width: 375px) {
+    .about iframe { width: 275px; }
+}
 
 @media (min-width: 575px) {
     .span1 { display: block; }
+
+    .about iframe {
+        width: 480px;
+        height: 360px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -81,6 +95,11 @@ body {
     .span2 { display: block; }
 
     .staff-img { width: 425px; }
+
+    .about iframe {
+        width: 720px;
+        height: 480px;
+    }
 }
 
 @media (min-width: 1200px) {

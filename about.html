@@ -50,8 +50,22 @@
               <a href="about.html" class="navbar-link" data-nav-link>About</a>
             </li>
 
-            <li class="navbar-item">
-              <a href="roster.html" class="navbar-link" data-nav-link>Roster</a>
+            <li class="navbar-item dropdown">
+              <button class="navbar-link dropdown-toggle" data-nav-link>
+                Team
+
+                <ion-icon
+                  name="caret-down-outline"
+                  class="link-arrow"
+                ></ion-icon>
+              </button>
+
+              <div class="dropdown-menu">
+                <a href="roster.html" class="dropdown-item navbar-link"
+                  >Roster</a
+                >
+                <a href="staff.html" class="dropdown-item navbar-link">Staff</a>
+              </div>
             </li>
 
             <li class="navbar-item">
@@ -81,47 +95,6 @@
     </header>
 
     <main>
-      <!-- SEASON -->
-      <section class="section season" aria-label="current season">
-        <div class="container">
-          <p class="section-subtitle" data-reveal="bottom">
-            Preparing for Takeoff
-          </p>
-
-          <h2 class="h2 section-title" data-reveal="bottom">
-            Current <span class="span">Season</span>
-          </h2>
-
-          <div class="current-season" data-reveal="left">
-            <article class="season-desc">
-              <div class="image-wrapper">
-                <img class="season-logo" src="logo.png" alt="X Element logo" />
-
-                <p>
-                  X-Element’s primary goal is to elevate our competitive
-                  performance. To achieve this, we plan to participate in LAN
-                  events, which can provide valuable X-Perience and X-Posure to
-                  high-level competition. This can help the team improve their
-                  skills and strategies, leading to ultimately performing better
-                  in future competitions.
-                </p>
-              </div>
-
-              <p class="p1">
-                Another one of X-Element’s objectives is to establish our newly
-                redesigned website as a professional platform for the team to
-                share news, updates, and other content with our audience. In
-                turn, we look forward to attracting more followers and building
-                a stronger connection with our fanbase. Through our newly
-                recruited social media squad, we look to bolster our online
-                presence, creating a loyal and engaged community around
-                X-Element.
-              </p>
-            </article>
-          </div>
-        </div>
-      </section>
-
       <!-- IDENTITY -->
       <section class="section identity" aria-label="mission and identity">
         <div class="container">
@@ -143,11 +116,11 @@
                   every one of us faces in our lives. The 'X' serves as a
                   metaphor for the core issue that each of us must confront:
                   "How do I carve my niche in this landscape?" The 'E'
-                  represents progress in the Information Age and the bonds we've
-                  made by tying our love for gaming into our professional
-                  aspirations, likening those skills to distinct elements. When they
-                  unite, they collectively decode this riddle, paving the way to
-                  a respected and renowned presence in the world of e-Sports.
+                  represents us as individuals and the power we possess as a
+                  group by tying our love for gaming into our professional
+                  aspirations, likening those skills to distinct elements. When
+                  they unite, they collectively decode this riddle, paving the
+                  way to a respected and renowned presence in e-Sports.
                 </p>
               </div>
 
@@ -171,6 +144,72 @@
                 cutting-edge industry.
               </p>
             </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ELEMENTS -->
+      <section class="section elements" aria-label="choose your element">
+        <div class="container">
+          <p class="section-subtitle" data-reveal="bottom">
+            Choose an Element
+          </p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Embrace Your <span class="span">Nature</span>
+          </h2>
+
+          <div class="natures" data-reveal="left">
+            <div class="top-half">
+              <div class="text-wrapper">
+                <p class="section-subtitle">Our Squads:</p>
+
+                <p class="team-nature fire" data-reveal="left">
+                  Our competitive players are represented by the element of
+                  <span>Fire.</span>
+                  These are the members who have earned the right to be on our
+                  team through forging their talents in the heat of online play.
+                </p>
+
+                <p class="team-nature wind" data-reveal="left">
+                  Content creators and our other non-competitive streamers are
+                  represented by the element of <span>Wind.</span> They announce
+                  our team's presence to the world and spread word of our
+                  achievements within the e-Sports landscape.
+                </p>
+
+                <p class="team-nature earth" data-reveal="left">
+                  <span>Earth</span> as an element represents our moderators,
+                  both on Discord and elsewhere. They help solidify our culture
+                  and ensure everyone has a positive experience while
+                  interacting with our channels.
+                </p>
+              </div>
+
+              <div class="image-wrapper">
+                <img
+                  class="card-image"
+                  src="assets/images/astronauts.png"
+                  alt="Man in green jacket holding paintball marker"
+                />
+              </div>
+            </div>
+
+            <div class="bottom-half">
+              <p class="team-nature water" data-reveal="left">
+                The element of <span>Water</span> represents our friends and
+                allies who see the vision and want to be a part of the
+                community. Life can't be sustained without it and we make sure
+                to appreciate our supporters.
+              </p>
+
+              <p class="team-nature spirit" data-reveal="left">
+                At the core of our team is the <span>Spirit</span>, which
+                represents our leadership and support staff. This includes our
+                CEO, co-CEO, and other background members who help our players
+                succeed or work behind the scenes for the brand.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -208,6 +247,47 @@
                 allowfullscreen
               ></iframe>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEASON -->
+      <section class="section season" aria-label="current season">
+        <div class="container">
+          <p class="section-subtitle" data-reveal="bottom">
+            Preparing for Takeoff
+          </p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Current <span class="span">Season</span>
+          </h2>
+
+          <div class="current-season" data-reveal="left">
+            <article class="season-desc">
+              <div class="image-wrapper">
+                <img class="season-logo" src="logo.png" alt="X Element logo" />
+
+                <p>
+                  X-Element’s primary goal is to elevate our competitive
+                  performance. To achieve this, we plan to participate in LAN
+                  events, which can provide valuable X-Perience and X-Posure to
+                  high-level competition. This can help the team improve their
+                  skills and strategies, leading to ultimately performing better
+                  in future competitions.
+                </p>
+              </div>
+
+              <p class="p1">
+                Another one of X-Element’s objectives is to establish our newly
+                redesigned website as a professional platform for the team to
+                share news, updates, and other content with our audience. In
+                turn, we look forward to attracting more followers and building
+                a stronger connection with our fanbase. Through our newly
+                recruited social media squad, we look to bolster our online
+                presence, creating a loyal and engaged community around
+                X-Element.
+              </p>
+            </article>
           </div>
         </div>
       </section>

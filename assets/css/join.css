@@ -6,8 +6,9 @@
 
 body {
     background-color: var(--bg-darker-purple);
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/body-bg-4.jpg");
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url("../images/body-bg-4.jpg");
     overflow-x: hidden;
+    background-position-x: center;
 }
 
 /*-----------------------------------*\
@@ -15,7 +16,7 @@ body {
 \*-----------------------------------*/
   
 .recruit { 
-    padding-top: 12rem;
+    padding-top: 14rem;
     text-align: center;
 }
   
@@ -102,8 +103,6 @@ iframe {
 \*-----------------------------------*/
 
 @media (max-width: 375px) {
-    iframe { width: 275px; }
-
     .contact-form {
         padding-left: 0;
         padding-right: 0;
@@ -154,7 +153,10 @@ iframe {
         justify-content: space-around;
     }
 
-    .intro p { max-width: 400px; }
+    .intro p { 
+        max-width: 400px;
+        padding-top: 3rem;
+    }
 
     .culture .image-wrapper {
         display: flex;

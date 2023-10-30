@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- primary meta tags -->
-    <title>X-Element: Roster</title>
+    <title>Welcome to X-Element</title>
     <meta name="title" content="X-Element" />
     <meta
       name="description"
-      content="Fostering a vibrant gaming community with camaraderie, integrity, and a unified passion."
+      content="Welcome to X-Element: Where Passion Meets X-Cellence in e-Sports"
     />
 
     <!-- favicon -->
@@ -20,17 +20,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;500;600;700&&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
 
     <!-- custom css link -->
-    <link rel="stylesheet" href="./assets/css/roster.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./assets/images/cta-banner.png" />
+    <link rel="preload" as="image" href="./assets/images/cta-banner-bg.png" />
   </head>
+
   <body>
     <!-- HEADER -->
     <header class="header active" data-header>
@@ -50,8 +51,17 @@
               <a href="about.html" class="navbar-link" data-nav-link>About</a>
             </li>
 
-            <li class="navbar-item">
-              <a href="roster.html" class="navbar-link" data-nav-link>Roster</a>
+            <li class="navbar-item dropdown">
+              <button class="navbar-link dropdown-toggle" data-nav-link>
+                Team
+                
+                <ion-icon name="caret-down-outline" class="link-arrow"></ion-icon>
+              </button>
+
+              <div class="dropdown-menu">
+                <a href="roster.html" class="dropdown-item navbar-link">Roster</a>
+                <a href="staff.html" class="dropdown-item navbar-link">Staff</a>
+              </div>
             </li>
 
             <li class="navbar-item">
@@ -59,7 +69,9 @@
             </li>
 
             <li class="navbar-item">
-              <a href="join.html" class="navbar-link join-link" data-nav-link>Join</a>
+              <a href="join.html" class="navbar-link join-link" data-nav-link
+                >Join</a
+              >
             </li>
           </ul>
         </nav>
@@ -78,259 +90,5 @@
       </div>
     </header>
 
-    <main>
-      <!-- ELEMENTS -->
-      <section class="section elements" aria-label="choose your element">
-        <div class="container">
-          <p class="section-subtitle" data-reveal="bottom">
-            What's Your Element?
-          </p>
-
-          <h2 class="h2 section-title" data-reveal="bottom">
-            Embrace Your <span class="span">Nature</span>
-          </h2>
-
-          <div class="natures" data-reveal="left">
-            <div class="top-half">
-              <div class="text-wrapper">
-                <p class="section-subtitle">Our Squads:</p>
-
-                <p class="team-nature" data-reveal="left">
-                  Our competitive players are represented by the element of
-                  <span>Fire.</span>
-                  These are the members who have earned the right to be on our
-                  team through forging their talents in the heat of online play.
-                </p>
-
-                <p class="team-nature" data-reveal="left">
-                  Content creators and our other non-competitive streamers are
-                  represented by the element of <span>Wind.</span> They announce
-                  our team's presence to the world and spread word of our
-                  achievements within the e-Sports landscape.
-                </p>
-
-                <p class="team-nature" data-reveal="left">
-                  <span>Earth</span> as an element represents our moderators,
-                  both on Discord and elsewhere. They help solidify our culture
-                  and ensure everyone has a positive experience while
-                  interacting with our channels.
-                </p>
-              </div>
-
-              <div class="image-wrapper">
-                <img
-                  class="card-image"
-                  src="assets/images/astronauts.png"
-                  alt="Man in green jacket holding paintball marker"
-                />
-              </div>
-            </div>
-
-            <div class="bottom-half">
-              <p class="team-nature" data-reveal="left">
-                The element of <span>Water</span> represents our friends and
-                allies who see the vision and want to be a part of the
-                community. Life can't be sustained without it and we make sure
-                to appreciate our supporters.
-              </p>
-
-              <p class="team-nature" data-reveal="left">
-                At the core of our team is the <span>Spirit</span>, which
-                represents our leadership and support staff. This includes our
-                CEO, co-CEO, and other background members who help our players
-                succeed or work behind the scenes for the brand.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- STAFF -->
-      <section class="section staff" aria-label="meet the staff">
-        <div class="container">
-          <p class="section-subtitle" data-reveal="bottom">Feel the Spirit</p>
-
-          <h2 class="h2 section-title" data-reveal="bottom">
-            Meet Our <span class="span">Core</span>
-          </h2>
-
-          <div class="swiper staff-slider" data-reveal="bottom">
-            <div class="swiper-wrapper wrapper">
-              <div class="swiper-slide slide">
-                <div class="content">
-                  <img
-                    class="staff-img"
-                    src="./assets/images/blob-41e0e89.png"
-                    alt="King Aaron picture"
-                  />
-
-                  <div class="staff-data">
-                    <h3>King Aaron</h3>
-                    <span>Chief Executive Officer</span>
-                    <a href="aaron.html" class="btn">Find Out More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide slide">
-                <div class="content">
-                  <img
-                    class="staff-img"
-                    src="./assets/images/blob-7283ff5.png"
-                    alt="BigBigSpoon picture"
-                  />
-
-                  <div class="staff-data">
-                    <h3>BigBigSpoon</h3>
-                    <span>Chief Marketing Officer</span>
-                    <a href="spoon.html" class="btn">Find Out More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide slide">
-                <div class="content">
-                  <img
-                    class="staff-img"
-                    src="./assets/images/blob-8440fb0.png"
-                    alt="Future picture"
-                  />
-
-                  <div class="staff-data">
-                    <h3>Future</h3>
-                    <span>Chief Operating Officer</span>
-                    <a href="future.html" class="btn">Find Out More</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="swiper-slide slide">
-                <div class="content">
-                  <img
-                    class="staff-img"
-                    src="./assets/images/blob-842f76b.png"
-                    alt="Head of HR picture"
-                  />
-
-                  <div class="staff-data">
-                    <h3>Sherika S.</h3>
-                    <span>Head of HR</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="custom-swiper-button-prev">
-              <ion-icon name="chevron-back-outline"></ion-icon>
-            </div>
-            <div class="custom-swiper-button-next">
-              <ion-icon name="chevron-forward-outline"></ion-icon>
-            </div>
-            <div class="swiper-pagination"></div>
-          </div>
-
-          <h3 data-reveal="left">The Spirit Squad:</h3>
-          <ol id="spirit">
-            <li>
-              <p>General Community Manager:</p>
-              <ul>
-                <li>TexGamer</li>
-              </ul>
-            </li>
-
-            <li>
-              <p>Team Video Editor:</p>
-              <ul>
-                <li>Creamah</li>
-              </ul>
-            </li>
-
-            <li>
-              <p>Team Data Analysis:</p>
-              <ul>
-                <li>Jerm6760</li>
-              </ul>
-            </li>
-
-            <li>
-              <p>Team Content Manager:</p>
-              <ul>
-                <li>Bulldog</li>
-              </ul>
-            </li>
-
-            <li>
-              <p>Social Media Team:</p>
-              <ul>
-                <li>Yuki da Ninja,</li>
-                <li>Danny Slasher,</li>
-                <li>&</li>
-                <li>Fearlessly Ky</li>
-              </ul>
-            </li>
-
-            <li>
-              <p>Web Development Team:</p>
-              <ul>
-                <li>Future</li>
-                <li>&</li>
-                <li>DeQueue</li>
-              </ul>
-            </li>
-          </ol>
-        </div>
-      </section>
-
-      
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="footer-bottom">
-        <div class="container">
-          <p class="copyright">
-            &copy; 2023 X-Element LLC - All Rights Reserved.
-          </p>
-        </div>
-      </div>
-    </footer>
-
-    <!-- CUSTOM CURSOR -->
-    <div class="cursor" data-cursor></div>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script>
-      let swiper = new Swiper(".swiper", {
-        effect: "cube",
-        loop: true,
-        grabCursor: true,
-        cubeEffect: {
-          shadow: true,
-          slideShadows: true,
-          shadowOffset: 20,
-          shadowScale: 0.94,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".custom-swiper-button-next",
-          prevEl: ".custom-swiper-button-prev",
-        },
-      });
-    </script>
-
-    <!-- custom js link -->
-    <script src="./assets/js/script.js"></script>
-
-    <!-- ionicon links -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
   </body>
 </html>

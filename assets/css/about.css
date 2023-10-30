@@ -6,29 +6,44 @@
 
 body {
   background-color: var(--bg-darker-purple);
-  background-image: url("../images/body-bg-2.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/body-bg-1.jpg");
   overflow-x: hidden;
-}
-
-/*-----------------------------------*\
-  #SEASON
-\*-----------------------------------*/
-
-.season {
-  padding-top: 16rem;
-  text-align: center;
-}
-
-.season-logo,
-.p1, .p2 {
-  display: none;
+  background-position-x: center;
 }
 
 /*-----------------------------------*\
   #IDENTITY
 \*-----------------------------------*/
 
-.identity { text-align: center; }
+.identity {
+  padding-top: 16rem;
+  text-align: center; 
+}
+
+/*-----------------------------------*\
+  #ELEMENTS
+\*-----------------------------------*/
+
+/* .elements { padding-top: 14rem; } */
+
+.natures .section-subtitle {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.team-nature { margin-bottom: 2rem; }
+
+.team-nature.spirit { margin-bottom: 0; }
+
+.team-nature span {
+  display: inline;
+  color: var(--text-champagne-pink);
+  font-weight: var(--weight-semibold);
+  text-transform: uppercase;
+}
+
+.natures .image-wrapper { display: none; }
 
 /*-----------------------------------*\
   #MUSIC
@@ -39,6 +54,17 @@ body {
 .music-desc { padding-bottom: 2rem; }
 
 iframe { padding-bottom: .5rem; }
+
+/*-----------------------------------*\
+  #SEASON
+\*-----------------------------------*/
+
+.season { text-align: center; }
+
+.season-logo,
+.p1, .p2 {
+  display: none;
+}
 
 /*-----------------------------------*\
   #MEDIA QUERIES
@@ -56,6 +82,31 @@ iframe { padding-bottom: .5rem; }
 }
 
 @media (min-width: 768px) {
+  .natures {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .natures .top-half {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .natures .text-wrapper { width: 100%; }
+
+  .natures .image-wrapper {
+    display: block;
+    width: 95%;
+    padding-top: 4rem;
+  }
+
+  .music .container { max-width: 720px; }
+
+  .songs .video-wrapper { 
+    display: flex;
+    justify-content: space-around;
+  }
+
   .season .image-wrapper {
     display: flex;
     gap: 1.5rem;
@@ -71,13 +122,6 @@ iframe { padding-bottom: .5rem; }
   .p1 {
     display: block;
     padding-top: 1.5rem;
-  }
-
-  .music .container { max-width: 720px; }
-
-  .songs .video-wrapper { 
-    display: flex;
-    justify-content: space-around;
   }
 }
 

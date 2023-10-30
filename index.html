@@ -33,7 +33,6 @@
   </head>
 
   <body>
-
     <!-- HEADER -->
     <header class="header active" data-header>
       <div class="container">
@@ -52,8 +51,17 @@
               <a href="about.html" class="navbar-link" data-nav-link>About</a>
             </li>
 
-            <li class="navbar-item">
-              <a href="roster.html" class="navbar-link" data-nav-link>Roster</a>
+            <li class="navbar-item dropdown">
+              <button class="navbar-link dropdown-toggle" data-nav-link>
+                Team
+                
+                <ion-icon name="caret-down-outline" class="link-arrow"></ion-icon>
+              </button>
+
+              <div class="dropdown-menu">
+                <a href="roster.html" class="dropdown-item navbar-link">Roster</a>
+                <a href="staff.html" class="dropdown-item navbar-link">Staff</a>
+              </div>
             </li>
 
             <li class="navbar-item">
@@ -61,7 +69,9 @@
             </li>
 
             <li class="navbar-item">
-              <a href="join.html" class="navbar-link join-link" data-nav-link>Join</a>
+              <a href="join.html" class="navbar-link join-link" data-nav-link
+                >Join</a
+              >
             </li>
           </ul>
         </nav>
@@ -81,7 +91,6 @@
     </header>
 
     <main>
-
       <!-- TEAMS -->
       <section class="section teams" aria-label="our teams">
         <div class="container">
@@ -107,7 +116,7 @@
               </h3>
             </li>
 
-            <li class="team-card" data-reveal="bottom">
+            <!-- <li class="team-card" data-reveal="bottom">
               <img
                 class="card-image"
                 src="assets/images/rocketleague.jpg"
@@ -117,7 +126,7 @@
               <h3 class="card-heading">
                 <a href="join.html" class="card-title">Rocket League</a>
               </h3>
-            </li>
+            </li> -->
 
             <li class="team-card" data-reveal="bottom">
               <img
@@ -131,7 +140,7 @@
               </h3>
             </li>
 
-            <li class="team-card" data-reveal="bottom">
+            <!-- <li class="team-card" data-reveal="bottom">
               <img
                 class="card-image"
                 src="assets/images/valorant.jpg"
@@ -141,7 +150,7 @@
               <h3 class="card-heading">
                 <a href="join.html" class="card-title">Valorant</a>
               </h3>
-            </li>
+            </li> -->
 
             <li class="team-card" data-reveal="bottom">
               <img
@@ -155,7 +164,7 @@
               </h3>
             </li>
 
-            <li class="team-card" data-reveal="bottom">
+            <!-- <li class="team-card" data-reveal="bottom">
               <img
                 class="card-image"
                 src="assets/images/overwatch.jpg"
@@ -165,7 +174,7 @@
               <h3 class="card-heading">
                 <a href="join.html" class="card-title">Overwatch</a>
               </h3>
-            </li>
+            </li> -->
           </ul>
 
           <div class="paintball" data-reveal="left">
@@ -180,7 +189,10 @@
             <div class="text-wrapper">
               <p class="paintball-desc">
                 Are you trying to take your passion for gaming to the most
-                X-Treme level? Step into the immersive arena of Paintball
+                X-Treme level? Step into the immersive arena of
+                <strong>
+                  <a href="join.html" class="card-title">Paintball</a>
+                </strong>
                 battles that go far beyond a screen.<br />
                 <span class="span1"
                   >Equipped with paintball markers and protective gear, our
@@ -190,7 +202,11 @@
                 <span class="span2"
                   >We blend cunning tactics, lightning-fast reflexes, and
                   seamless coordination to dominate the competition and emerge
-                  as champions of the Paintball field.</span
+                  as champions of the
+                  <strong>
+                    <a href="join.html" class="card-title">Paintball</a>
+                  </strong>
+                  field.</span
                 >
               </p>
             </div>
@@ -227,11 +243,11 @@
             </div>
 
             <div class="image-wrapper">
-                <img
-                  class="card-image"
-                  src="assets/images/blob.png"
-                  alt="Man in X-Element shirt pointing at you"
-                />
+              <img
+                class="card-image"
+                src="assets/images/blob.png"
+                alt="Man in X-Element shirt pointing at you"
+              />
             </div>
           </div>
 
@@ -418,6 +434,32 @@
         </div>
       </section>
 
+      <!-- LATEST -->
+      <section class="section latest" aria-label="how to join">
+        <div class="container">
+          <p class="section-subtitle" data-reveal="bottom">Live and Direct</p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Our <span class="span">Latest</span> Video
+          </h2>
+
+          <div data-reveal="left">
+            <div class="video-wrapper">
+              <div>
+                <iframe
+                  class="latestVideoEmbed"
+                  vnum="0"
+                  cid="UCG9KpfH_p__Dacvsxd00Dzg"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+                <!-- <p id="video-title">Lorem ipsum</p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- CALL TO ACTION -->
       <section class="cta" aria-label="Join us today" data-reveal="bottom">
         <div class="banner has-before">
@@ -521,6 +563,40 @@
 
     <!-- custom js links -->
     <script src="./assets/js/script.js"></script>
+
+    <!-- jQuery link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <!-- latest video  -->
+    <script>
+      let reqURL =
+        "https://api.rss2json.com/v1/api.json?rss_url=" +
+        encodeURIComponent(
+          "https://www.youtube.com/feeds/videos.xml?channel_id="
+        );
+
+      function loadVideo(iframe) {
+        $.getJSON(reqURL + iframe.getAttribute("cid"), function (data) {
+          let videoNumber = iframe.getAttribute("vnum")
+            ? Number(iframe.getAttribute("vnum"))
+            : 0;
+          console.log(videoNumber);
+          let link = data.items[videoNumber].link;
+          // let title=data.items[videoNumber].title;
+          id = link.substr(link.indexOf("=") + 1);
+          iframe.setAttribute(
+            "src",
+            "https://youtube.com/embed/" + id + "?controls=0&autoplay=1"
+          );
+          // iframe.parentElement.querySelector("#video-title").innerText = title;
+        });
+      }
+
+      let iframes = document.getElementsByClassName("latestVideoEmbed");
+      for (let i = 0, len = iframes.length; i < len; i++) {
+        loadVideo(iframes[i]);
+      }
+    </script>
 
     <!-- ionicon links -->
     <script
