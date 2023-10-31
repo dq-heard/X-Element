@@ -385,13 +385,17 @@ body {
 .teams-list .team-card { max-width: 328px; }
 
 .team-card:hover .card-image,
-.team-card:hover .card-heading { transform: scale(1.1); }
+.team-card:hover .card-heading,
+.paintball .image-wrapper:hover .card-image,
+.paintball .image-wrapper:hover .card-heading { transform: scale(1.1); }
 
-.team-card:hover .card-overlay { opacity: 0.5; }
+.team-card:hover .card-overlay,
+.paintball .image-wrapper:hover .card-overlay { opacity: 0.5; }
 
 .team-card .h3 { margin-block: 15px 10px; }
 
-.team-card .card-title {
+.team-card .card-title,
+.paintball .image-wrapper .card-title {
   display: inline;
   background-image: linear-gradient(to left, var(--bg-pink), var(--bg-pink));
   background-repeat: no-repeat;
@@ -400,7 +404,8 @@ body {
   transition: var(--transition-2);
 }
 
-.team-card .card-title:is(:hover, :focus-visible) { background-size: 100% 4px; }
+.team-card .card-title:is(:hover, :focus-visible),
+.paintball .image-wrapper .card-title:is(:hover, :focus-visible) { background-size: 100% 4px; }
 
 .card-image {
   width: 100%;
@@ -421,38 +426,13 @@ body {
   position: absolute;
   top: calc(50% - 20px);
   left: calc(50% - (100px / 2));
-  /* color: white; */
   font-size: 20px;
   width: 100px;
   text-align: center;
 }
 
-.paintball { margin-top: 1rem; }
-
-.paintball .text-wrapper {
-  text-align: center;
-  padding-top: 1rem;
-  margin: 0 auto 2rem;
-  max-width: 328px;
-}
-
-.paintball-desc a { 
-  display: inline;
-  color: var(--text-champagne-pink);
-}
-
-.paintball-desc a:hover { 
-  color: var(--text-pink);
-}
-
-.paintball span { display: none; }
-
-.paintball .image-wrapper {
-  position: relative;
-  margin: 0 auto;
-  min-width: 275px;
-  max-width: 328px;
-  overflow: hidden;
+.paintball { 
+  display: none;
 }
 
 /*-----------------------------------*\
@@ -693,18 +673,6 @@ iframe {
 
   .team-card { width: calc(50% - 20px); }
 
-  .paintball {
-    display: flex;
-    gap: 1.5rem;
-  }
-
-  .paintball .text-wrapper {
-    width: 100%;
-    padding-top: .75rem;
-  }
-
-  .paintball .image-wrapper { padding: 0 10px; }
-
   iframe:not(.music iframe, .join iframe, .intro iframe) {
     width: 480px;
     height: 360px;
@@ -898,19 +866,33 @@ iframe {
     object-fit: cover;
   }
 
-  .paintball { margin-top: 2rem; }
+  .paintball-card { display: none; }
 
-  .paintball .image-wrapper { max-width: 100%; }
+  .paintball {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem auto 0;
+    padding: 0 1.3rem;
+  }
 
   .paintball .text-wrapper {
-    max-width: none;
-    margin-bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .paintball .image-wrapper {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
   }
 
   .paintball-desc .span1 {
-    display: block;
     padding-top: .75rem;
     padding-bottom: .5rem;
+  }
+
+  .paintball-desc .span2 {
+    padding-top: .5rem;
   }
 
   /* ROLES */
