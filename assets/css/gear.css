@@ -203,10 +203,11 @@ body {
 
   .merch-card .merch-img {
     max-height: 180px;
-    width: auto;
   }
 
   .merch-card .modal-btn { bottom: -20px; }
+  
+  .merch .merch-card .modal-btn { bottom: -30px; }
 
   .merch-card.right .modal-btn { left: 35%; }
 

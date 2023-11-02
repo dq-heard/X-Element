@@ -906,7 +906,7 @@ iframe {
 
   /* CTA */
   .banner::before {
-    width: 60%;
+    width: 90%;
     left: 50%;
     transform: translate(-50%, 0%);
   }
@@ -927,6 +927,8 @@ iframe {
   .paintball .text-wrapper { padding-top: 6rem; }
 
   /* CTA */
+  .banner::before { width: 65%; }
+
   .cta-banner-bg { transform: scale(1.1); }
 
   .cta-banner .w-100 {
