@@ -115,6 +115,8 @@ function toggleAnswers() {
   const answers = document.querySelectorAll(".role-desc");
 
   buttons.forEach(button => {
+    answers[0].classList.add("show-text");
+    buttons[0].classList.add("show-text");
     button.addEventListener("click", () => {
       const answer = button.parentNode.nextElementSibling;
       answer.classList.toggle("show-text");

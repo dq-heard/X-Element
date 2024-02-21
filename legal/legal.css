@@ -1,0 +1,31 @@
+@import url(../home/home.css);
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+body {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("../legal/legal-bg.jpg");
+  background-repeat: repeat;
+}
+
+/*-----------------------------------*\
+  #POLICY
+\*-----------------------------------*/
+
+.policy, .terms { padding-top: 12rem; }
+
+h2, h3, h4 { 
+  padding: 1.5rem 0 .5rem;
+  color: var(--text-champagne-pink);
+}
+
+li, p { padding: .5rem 0; }
+
+p a { 
+  display: inline;
+  color: var(--text-champagne-pink); 
+  font-family: Arial, sans-serif;
+}
+
+p a:hover { color: var(--text-pink); }

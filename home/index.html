@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- primary meta tags -->
+    <title>Welcome to X Element</title>
+    <meta name="title" content="X Element" />
+    <meta name="description" content="X Element: Believe in Yourself" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./logo.png" type="image/png" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="../home/home.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header class="header active" data-header>
+      <div class="container">
+        <a href="../home" class="logo">
+          <img src="../logo.png" width="60" height="60" alt="X Element Home" />
+          <p>X&nbsp;Element</p>
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="../home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item dropdown">
+              <button class="navbar-link dropdown-toggle" data-nav-link>
+                Team
+
+                <ion-icon
+                  name="caret-down-outline"
+                  class="link-arrow"
+                ></ion-icon>
+              </button>
+
+              <div class="dropdown-menu">
+                <a href="../team/roster" class="dropdown-item navbar-link"
+                  >Roster</a
+                >
+                <a href="../team/staff" class="dropdown-item navbar-link"
+                  >Staff</a
+                >
+              </div>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../gear" class="navbar-link" data-nav-link>Gear</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="../join" class="navbar-link join-link" data-nav-link
+                >Join</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <a href="../join" class="btn" data-btn>Join Our Team</a>
+
+        <button
+          class="nav-toggle-btn"
+          aria-label="toggle menu"
+          data-nav-toggler
+        >
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- LANDING -->
+      <section class="section landing" aria-label="welcome to x element">
+        <div class="container">
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Welcome to <span class="span">X&nbsp;Element</span>
+          </h2>
+
+          <p class="section-text" data-reveal="bottom">
+            We are a Lifestyle, Sports, and Media company that's growing daily.
+            What are you waiting for? Harness your element with us.
+          </p>
+
+          <div class="banner" data-reveal="bottom">
+            <div class="neon-border-top"></div>
+            <img src="../home/assets/welcome.png" alt="X Element Banner" />
+            <div class="neon-border-bottom"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CALL TO ACTION -->
+      <section class="cta" aria-label="Join us today" data-reveal="bottom">
+        <div class="container">
+          <p class="section-subtitle" data-reveal="bottom">X Marks the Spot</p>
+
+          <h1 class="h1 title cta-title" data-reveal="bottom">
+            Build Your Legacy Here!
+          </h1>
+
+          <p class="section-text" data-reveal="bottom">
+            As we continue to expand our portfolio and create more
+            opportunities, our e-Sports origins remain at our core.
+            <span class="span1">Tap into your power. Feed your fire.</span>
+            <!-- <span class="span1">
+              X&nbsp;Element is committed to promoting the individuality of each
+              player we proudly represent, ensuring their stories reach a wider
+              audience while showcasing their incredible talents.
+            </span> -->
+          </p>
+
+          <ul class="teams-list">
+            <li class="team-card" data-reveal="bottom">
+              <img
+                class="card-image"
+                src="../home/assets/warzone.jpg"
+                alt="Call of Duty: Warzone"
+              />
+              <div class="card-overlay"></div>
+              <h3 class="card-heading">
+                <a href="join.html" class="card-title">CoD: Warzone</a>
+              </h3>
+            </li>
+
+            <li class="team-card" data-reveal="bottom">
+              <img
+                class="card-image"
+                src="../home/assets/apexlegends.jpg"
+                alt="Apex Legends"
+              />
+              <div class="card-overlay"></div>
+              <h3 class="card-heading">
+                <a href="join.html" class="card-title">Apex Legends</a>
+              </h3>
+            </li>
+
+            <li class="team-card" data-reveal="bottom">
+              <img
+                class="card-image"
+                src="../home/assets/fortnite.jpg"
+                alt="Fortnite"
+              />
+              <div class="card-overlay"></div>
+              <h3 class="card-heading">
+                <a href="join.html" class="card-title">Fortnite</a>
+              </h3>
+            </li>
+
+            <li class="team-card paintball-card" data-reveal="bottom">
+              <img
+                class="card-image"
+                src="../home/assets/paintball.jpg"
+                alt="Man in green jacket holding paintball marker"
+              />
+              <div class="card-overlay"></div>
+              <h3 class="card-heading">
+                <a href="join.html" class="card-title">Paintball</a>
+              </h3>
+            </li>
+          </ul>
+
+          <div class="paintball-wrapper" data-reveal="left">
+            <div class="paintball">
+              <div class="image-wrapper">
+                <img
+                  class="card-image"
+                  src="../home/assets/paintball.jpg"
+                  alt="Man in green jacket holding paintball marker"
+                />
+                <div class="card-overlay"></div>
+                <h3 class="card-heading">
+                  <a href="join.html" class="card-title">Paintball</a>
+                </h3>
+              </div>
+
+              <div class="text-wrapper">
+                <p class="paintball-desc">
+                  Are you trying to take your passion for gaming to the most
+                  extreme level? Step into the immersive arena of Paintball
+                  battles that go far beyond a screen.<br />
+                  <span class="span1"
+                    >Equipped with paintball markers and protective gear, our
+                    players navigate thrilling maps relying on stealth,
+                    accuracy, and teamwork to triumph over opponents.<br
+                  /></span>
+                  <span class="span2"
+                    >We blend cunning tactics, lightning-fast reflexes, and
+                    seamless coordination to dominate the competition and emerge
+                    as champions of the Paintball field.</span
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ROLES -->
+      <section class="section roles" aria-label="we are recruiting">
+        <div class="container">
+          <p class="section-subtitle" data-reveal="bottom">Ready to Excel?</p>
+
+          <h2 class="h2 section-title" data-reveal="bottom">
+            Know Your <span class="span">Role</span>
+          </h2>
+
+          <div class="role-intro" data-reveal="right">
+            <div class="text-wrapper">
+              <p>
+                Greetings, new recruit! We're seeking skilled, passionate pros
+                to join us in various roles. Below, you will find a list of
+                positions we currently have available.<br />
+                <span>
+                  If you're looking for an exciting opportunity to contribute
+                  your talents to a dynamic team, we encourage you to apply by
+                  sending your professional résumé
+                  <a
+                    href="../team/bios/aaron"
+                    style="font-family: Arial, sans-serif"
+                    ><strong>here.</strong></a
+                  >
+                </span>
+              </p>
+            </div>
+
+            <div class="image-wrapper">
+              <img
+                class="card-image"
+                src="../home/assets/home.gif"
+                alt="Multiple saluting astronauts in front of X Element logo"
+              />
+            </div>
+          </div>
+
+          <div class="role-names">
+            <p class="section-subtitle" data-reveal="left">
+              Available Positions:
+            </p>
+
+            <ol class="role-list">
+              <li class="team-role" data-reveal="left">
+                <div class="title-section">
+                  <p class="role-title">Discord Mod Manager:</p>
+
+                  <button class="desc-link has-before">
+                    <span class="read-more">More</span>
+                  </button>
+                </div>
+
+                <ul class="role-desc">
+                  <li>
+                    Responsible for managing and organizing the moderation team.
+                  </li>
+                  <li>
+                    Ensures a positive and inclusive cultural environment.
+                  </li>
+                  <li>
+                    Proven history in community management and conflict
+                    resolution is preferred.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="team-role" data-reveal="left">
+                <div class="title-section">
+                  <p class="role-title">Social Media Manager:</p>
+
+                  <button class="desc-link has-before">
+                    <span class="read-more">More</span>
+                  </button>
+                </div>
+
+                <ul class="role-desc">
+                  <li>
+                    Manages our social media presence across various platforms.
+                  </li>
+                  <li>
+                    Creates engaging content, schedules posts, and interacts
+                    with the community.
+                  </li>
+                  <li>
+                    Proficiency in social media management tools and analytics
+                    are a plus.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="team-role" data-reveal="left">
+                <div class="title-section">
+                  <p class="role-title">Recruiting Manager:</p>
+
+                  <button class="desc-link has-before">
+                    <span class="read-more">More</span>
+                  </button>
+                </div>
+
+                <ul class="role-desc">
+                  <li>Leads the recruitment process for new team members.</li>
+                  <li>
+                    Identifies talent, conducts interviews, and facilitates
+                    onboarding.
+                  </li>
+                  <li>
+                    Strong interpersonal skills and a good understanding of the
+                    industry are desired.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="team-role" data-reveal="left">
+                <div class="title-section">
+                  <p class="role-title">Content Creation Manager:</p>
+
+                  <button class="desc-link has-before">
+                    <span class="read-more">More</span>
+                  </button>
+                </div>
+
+                <ul class="role-desc">
+                  <li>Oversees content creation efforts for our team.</li>
+                  <li>
+                    Coordinates with content creators to develop engaging and
+                    high-quality posts.
+                  </li>
+                  <li>
+                    Expertise in content creation, video editing, and graphic
+                    design is valuable.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="team-role" data-reveal="left">
+                <div class="title-section">
+                  <p class="role-title">Head Coaches (Multiple):</p>
+
+                  <button class="desc-link has-before">
+                    <span class="read-more">More</span>
+                  </button>
+                </div>
+
+                <ul class="role-desc">
+                  <li>
+                    Provide guidance, leadership, and mentorship to the squad of
+                    your respective game.
+                  </li>
+                  <li>
+                    Develop training regimens, manage player performances, and
+                    optimize team synergy.
+                  </li>
+                  <li>
+                    Coaching experience and knowledge of your chosen game's
+                    competitive scene are required.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="team-role" data-reveal="left">
+                <div class="title-section">
+                  <p class="role-title">Assistant Coaches (Multiple):</p>
+
+                  <button class="desc-link has-before">
+                    <span class="read-more">More</span>
+                  </button>
+                </div>
+
+                <ul class="role-desc">
+                  <li>
+                    Supplements the Head Coach's training and strategy
+                    implementation.
+                  </li>
+                  <li>
+                    Supports players during matches, competitions, and practice
+                    sessions.
+                  </li>
+                  <li>
+                    Familiarity with gameplay tactics and mechanics of your
+                    chosen game are essential.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="team-role" data-reveal="left">
+                <div class="title-section">
+                  <p class="role-title">Team Analysts (Multiple):</p>
+
+                  <button class="desc-link has-before">
+                    <span class="read-more">More</span>
+                  </button>
+                </div>
+
+                <ul class="role-desc">
+                  <li>
+                    Monitors squad performances, opponents, and gameplay
+                    data/strategies.
+                  </li>
+                  <li>
+                    Provides feedback with insights and recommendations for
+                    improvements.
+                  </li>
+                  <li>
+                    Strong analytical skills and a deep understanding of your
+                    chosen game are necessary.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+          <div class="neon-border-bottom"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="section footer-top">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="../home" class="logo">
+              <img
+                src="../logo.png"
+                class="footer-logo"
+                width="150"
+                height="150"
+                loading="lazy"
+                alt="X-Element logo"
+              />
+            </a>
+
+            <div class="footer-wrapper">
+              <p class="footer-text">Check Out Our Socials!</p>
+
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com/groups/1176119786245217/?ref=share"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.tiktok.com/@xelementgaming"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.instagram.com/x_elementgaming/"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCG9KpfH_p__Dacvsxd00Dzg"
+                    class="social-link"
+                  >
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="twitch">
+            <iframe
+              src="https://player.twitch.tv/xelementgaming"
+              height="180"
+              width="320"
+              allowfullscreen
+            >
+            </iframe>
+
+            <p>Make sure to keep up with our official Twitch channel too!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            ©
+            <script type="text/javascript">
+              document.write(new Date().getFullYear());
+            </script>
+            X&nbsp;Element LLC - All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor" data-cursor></div>
+
+    <!-- custom js links -->
+    <script src="../assets/js/script.js"></script>
+
+    <!-- ionicon links -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

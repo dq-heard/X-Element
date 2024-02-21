@@ -1,0 +1,137 @@
+@import url(../../home/home.css);
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+body {
+    background-color: var(--bg-darker-purple);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url("../assets/body-bg-2.jpg");
+    overflow-x: hidden;
+}
+
+/*-----------------------------------*\
+  #STAFF
+\*-----------------------------------*/
+
+.staff {
+    padding-top: 14rem;
+    overflow-x: hidden; 
+}
+
+.slide {
+    min-height: 70vh;
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 2rem 9% 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide h3,
+.slide .btn {
+    margin-top: 1rem;
+}
+
+.staff-img {
+    width: 200px;
+    border: 4px solid var(--bg-purple);
+    background-color: var(--bg-purple-alpha-30);
+}
+
+.staff h3 { padding-top: 3rem; }
+
+.custom-swiper-button-next, .custom-swiper-button-prev { display: none; }
+
+.swiper-pagination-bullet { background: var(--text-white); }
+
+.swiper-pagination-bullet-active { background: var(--bg-pink); }
+
+#spirit {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    white-space: nowrap;
+    animation: floatText 35s infinite linear;
+    padding-left: 105%; /*Initial offset*/
+    padding-right: 5%;
+}
+  
+#spirit li {
+    display: inline-flex;
+    margin: 0 10px;
+    align-items: center;
+}
+
+#spirit p { margin: 8px; }
+
+#spirit ul li { margin: 0; }
+
+#spirit::-webkit-scrollbar {
+    display: none;
+    scrollbar-width: none;
+}
+
+#spirit:hover { animation-play-state: paused; }
+
+@keyframes floatText {
+    to {
+      transform: translateX(-100%);
+    }
+}
+
+/*-----------------------------------*\
+  #PLAYLIST
+\*-----------------------------------*/
+  
+.playlist { text-align: center; }
+
+iframe {
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media (min-width: 768px) {
+    
+
+    .custom-swiper-button-next, .custom-swiper-button-prev {
+        position: absolute;
+        top: 50%;
+        margin-top: -25px;
+        z-index: 10;
+        cursor: pointer;
+        display: block;
+        opacity: 0.5;
+        color: var(--bg-purple);
+    }
+    
+    ion-icon {
+        width: 75px;
+        height: 75px;
+    }
+      
+    .custom-swiper-button-next {
+        right: 50px;
+    }
+      
+    .custom-swiper-button-prev {
+        left: 50px;
+    }
+      
+    .custom-swiper-button-next:hover, 
+    .custom-swiper-button-prev:hover {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    #spirit {
+        padding-left: 115%;
+        padding-right: 20%;
+    }
+}
