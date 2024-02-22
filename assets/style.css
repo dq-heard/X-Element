@@ -49,6 +49,7 @@ header {
 
 .video-container {
   position: absolute;
+  background: #000;
   top: 0;
   left: 0;
   width: 100%;
@@ -119,4 +120,16 @@ header::after {
   position: absolute;
   bottom: 7%;
   right: 7%;
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 575px) {
+  .switch-btn {
+    display: none;
+  }
 }
