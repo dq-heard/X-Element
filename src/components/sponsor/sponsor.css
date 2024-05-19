@@ -1,0 +1,59 @@
+/*-----------------------------------*\
+  #SPONSOR
+\*-----------------------------------*/
+
+.sponsor {
+  text-align: center;
+}
+
+.sponsor .logo {
+  display: none;
+}
+
+.sponsor .wordmark {
+  margin: 1rem auto 0;
+  width: 99%;
+  max-width: 348px;
+}
+
+.sponsor .btn {
+  margin: 2rem auto 0;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (min-width: 768px) {
+  .sponsor .image-wrapper {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .sponsor .logo {
+    display: block;
+    width: 380px;
+  }
+
+  .sponsor .wordmark {
+    display: none;
+  }
+
+  .sponsor .logo-text {
+    max-width: 400px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .sponsor .container {
+    max-width: 940px;
+  }
+
+  .sponsor .logo-text {
+    margin-top: 4rem;
+  }
+
+  .sponsor .logo {
+    width: 480px;
+  }
+}

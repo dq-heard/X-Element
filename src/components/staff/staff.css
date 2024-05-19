@@ -1,0 +1,98 @@
+/*-----------------------------------*\
+  #STAFF
+\*-----------------------------------*/
+
+.staff {
+  padding-top: 14rem;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+.staff iframe,
+.roster iframe {
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.staff h3 {
+  text-align: start;
+  padding-top: 3rem;
+}
+
+.squad {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  white-space: nowrap;
+  animation: floatText 35s infinite linear;
+  padding-left: 105%; /*Initial offset*/
+  padding-right: 5%;
+}
+
+.squad li {
+  display: inline-flex;
+  margin: 0 10px;
+  align-items: center;
+}
+
+.squad p {
+  margin: 8px;
+}
+
+.squad ul li {
+  margin: 0;
+  margin-right: 5px;
+}
+
+.squad::-webkit-scrollbar {
+  display: none;
+  scrollbar-width: none;
+}
+
+.squad:hover {
+  animation-play-state: paused;
+}
+
+@keyframes floatText {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+@media screen and (max-width: 375px) {
+  .staff iframe,
+  .roster iframe {
+    width: 275px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .staff iframe,
+  .roster iframe {
+    width: 480px;
+    height: 360px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .staff iframe,
+  .roster iframe {
+    width: 720px;
+    height: 480px;
+  }
+
+  .squad {
+    padding-left: 115%;
+    padding-right: 20%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .squad {
+    padding-left: 130%;
+    padding-right: 20%;
+  }
+}

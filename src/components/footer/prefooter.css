@@ -1,0 +1,70 @@
+/*-----------------------------------*\
+  #PREFOOTER
+\*-----------------------------------*/
+.full-footer .container {
+  display: grid;
+  gap: 35px;
+  width: 50%;
+}
+
+.full-footer .footer-brand {
+  margin: 0;
+}
+
+.full-footer .footer-logo {
+  display: block;
+  margin-top: -1rem;
+  padding-bottom: 1rem;
+}
+
+.full-footer .footer-text {
+  display: none;
+}
+
+.footer-wrapper {
+  padding-bottom: 1.5rem;
+}
+
+.footer-list {
+  padding-bottom: 3rem;
+}
+
+.input-field::placeholder {
+  color: var(--text-gainsboro);
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (min-width: 575px) {
+  .full-footer .container {
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+
+  .full-footer .footer-brand {
+    display: block;
+  }
+
+  .full-footer .footer-text {
+    display: block;
+    margin-top: -0.1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .full-footer {
+    padding-top: 8rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .full-footer .container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .full-footer {
+    padding-bottom: 0;
+  }
+}

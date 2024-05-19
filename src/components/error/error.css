@@ -1,0 +1,40 @@
+.error {
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 91vh;
+}
+
+.error .btn {
+  margin: 3rem auto;
+}
+
+.error .image-wrapper .card-image {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767.98px) {
+  .error .flex-container {
+    max-width: 385px;
+  }
+
+  .error .teams {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .error .flex-container {
+    display: flex;
+    gap: 0;
+    padding: 0 5rem;
+    max-width: 700px;
+  }
+
+  .error .section-text {
+    padding-top: 4rem;
+  }
+}

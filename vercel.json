@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      {"source": "/home", "destination": "/"},
+      {"source": "/about", "destination": "/"},
+      {"source": "/media", "destination": "/"},
+      {"source": "/gear", "destination": "/"},
+      {"source": "/team", "destination": "/"},
+      {"source": "/privacy", "destination": "/"},
+      {"source": "/terms", "destination": "/"},
+      {"source": "/(.*)", "destination": "/"}
+    ]
+  }
+  

@@ -1,0 +1,23 @@
+/*-----------------------------------*\
+  #GALLERY
+\*-----------------------------------*/
+.gallery .section-text {
+  margin-block-end: 0;
+}
+.gallery .btn {
+  margin: 3rem auto;
+}
+
+.scroll-container {
+  background-color: var(--bg-purple-alpha-30);
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container img {
+  padding: 10px;
+  display: inline;
+  max-height: 420px;
+}

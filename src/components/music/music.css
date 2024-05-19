@@ -1,0 +1,37 @@
+/*-----------------------------------*\
+  #MUSIC
+\*-----------------------------------*/
+
+.music {
+  padding-top: 14rem;
+  text-align: center;
+}
+
+.music-desc {
+  padding-bottom: 2rem;
+}
+
+iframe {
+  padding-bottom: 0.5rem;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (max-width: 375px) {
+  iframe {
+    width: 275px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .music .container {
+    max-width: 720px;
+  }
+
+  .songs .video-wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,187 @@
+/*-----------------------------------*\
+  #CTA
+\*-----------------------------------*/
+
+.cta {
+  text-align: center;
+}
+
+.cta .section-subtitle {
+  letter-spacing: 5px;
+}
+
+.cta-title {
+  margin-block: 20px 25px;
+}
+
+.cta .section-text span {
+  padding-top: 0.75rem;
+}
+
+.team-card {
+  position: relative;
+  margin: 10px auto;
+  overflow: hidden;
+}
+
+.teams-list .team-card {
+  max-width: 328px;
+}
+
+.card-heading a {
+  color: var(--text-white);
+  text-decoration: none;
+  font-family: "Oxanium", cursive;
+}
+
+.team-card:hover .card-image,
+.team-card:hover .card-heading,
+.paintball .image-wrapper:hover .card-image,
+.paintball .image-wrapper:hover .card-heading {
+  transform: scale(1.1);
+}
+
+.team-card:hover .card-overlay,
+.paintball .image-wrapper:hover .card-overlay {
+  opacity: 0.5;
+}
+
+.team-card .h3 {
+  margin-block: 15px 10px;
+}
+
+.team-card .card-title,
+.paintball .image-wrapper .card-title {
+  display: inline;
+  background-image: linear-gradient(to left, var(--bg-pink), var(--bg-pink));
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 0% 4px;
+  transition: var(--transition-2);
+}
+
+.team-card .card-title:is(:hover, :focus-visible),
+.paintball .image-wrapper .card-title:is(:hover, :focus-visible) {
+  background-size: 100% 4px;
+}
+
+.card-image {
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card-heading {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: calc(50% - (100px / 2));
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+.paintball {
+  display: none;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (min-width: 575px) {
+  .teams-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .team-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cta .section-subtitle {
+    letter-spacing: 10px;
+  }
+
+  .paintball-desc .span2 {
+    display: block;
+    padding-top: 0.5rem;
+  }
+
+  .paintball .image-wrapper {
+    margin: 0;
+  }
+
+  .paintball .text-wrapper {
+    width: 95%;
+    padding-top: 0;
+    margin-top: -0.75rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .teams {
+    padding-top: 13rem;
+  }
+
+  .team-card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+  }
+
+  .team-card img {
+    height: 470px;
+    object-fit: cover;
+  }
+
+  .paintball-card {
+    display: none;
+  }
+
+  .paintball {
+    display: flex;
+    gap: 1.5rem;
+    margin: 2rem auto 0;
+    padding: 0 1.3rem;
+  }
+
+  .paintball .text-wrapper {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .paintball .image-wrapper {
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .paintball-desc .span1 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .paintball-desc .span2 {
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .paintball .text-wrapper {
+    padding-top: 6rem;
+  }
+
+  .banner::before {
+    width: 65%;
+  }
+}

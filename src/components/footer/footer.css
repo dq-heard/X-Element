@@ -1,0 +1,148 @@
+/*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+.footer-top {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.footer-top.hide {
+  display: none;
+}
+
+.footer-top .container {
+  display: grid;
+  gap: 35px;
+}
+
+.footer-brand,
+.twitch {
+  margin: 0 auto;
+}
+
+.twitch {
+  text-align: center;
+  max-width: 375px;
+}
+
+.footer-logo {
+  display: none;
+}
+
+.footer-text {
+  margin-block: 15px;
+}
+
+.social-list {
+  display: flex;
+  gap: 10px;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  background-color: var(--bg-purple-alpha-30);
+  display: grid;
+  place-items: center;
+  clip-path: var(--clip-path-8);
+  transition: var(--transition-1);
+}
+
+.social-link:is(:hover, :focus-visible) {
+  background-color: var(--bg-purple);
+  transform: translateY(-2px);
+}
+
+.footer-list-title {
+  font-size: var(--fontSize-3);
+  font-weight: var(--weight-semibold);
+  line-height: 1;
+  position: relative;
+  padding-block-end: 10px;
+  margin-block-end: 20px;
+  max-width: max-content;
+}
+
+.footer-list-title::after {
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 4px;
+  background-color: var(--bg-purple);
+}
+
+.footer-link {
+  padding-block: 5px;
+  color: var(--text-white);
+  transition: var(--transition-1);
+}
+
+.input-field {
+  background-color: var(--bg-darker-purple);
+  color: var(--text-white);
+  font-size: var(--fontSize-5);
+  padding: 18px 12px;
+  box-shadow: var(--shadow);
+  border: 2px solid var(--border-purple-alpha-30);
+  margin-block-end: 15px;
+  outline: none;
+}
+
+.input-field::placeholder {
+  color: var(--text-white);
+}
+
+.footer-bottom {
+  clip-path: var(--clip-path-9);
+  background-color: var(--bg-darker-purple);
+}
+
+.copyright {
+  font-family: "Oxanium", cursive;
+  padding: 30px 20px;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (max-width: 375px) {
+  .footer-brand {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .footer-brand {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 5%; */
+    padding-top: 2rem;
+  }
+
+  .footer-logo {
+    display: block;
+    width: 205px;
+    height: auto;
+    margin-top: -4rem;
+  }
+
+  .footer-text {
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .footer-top .container {
+    display: flex;
+    align-items: center;
+    gap: 0;
+  }
+
+  .footer-brand {
+    padding-top: 0;
+    margin-top: -2rem;
+    gap: 10%;
+  }
+}

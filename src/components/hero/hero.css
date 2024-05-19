@@ -1,0 +1,19 @@
+/*-----------------------------------*\
+  #LANDING
+\*-----------------------------------*/
+
+.hero {
+  padding-top: 14rem;
+}
+
+.banner {
+  width: 99%;
+  margin: 0 auto;
+}
+
+.banner img,
+.banner .neon-border-top,
+.banner .neon-border-bottom {
+  width: 99%;
+  max-width: 1040px;
+}

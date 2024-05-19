@@ -1,0 +1,50 @@
+/*-----------------------------------*\
+  #WALLPAPERS
+\*-----------------------------------*/
+
+.mobile-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  gap: 0;
+}
+
+.desktop-list {
+  display: none;
+}
+
+.preview-card .card-content {
+  position: relative;
+  padding: 30px;
+}
+
+.card-tag.btn {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  font-size: var(--fontSize-8);
+  text-transform: uppercase;
+  min-width: 108px;
+  height: 30px;
+  line-height: 32px;
+  padding-inline: 20px;
+}
+
+@media screen and (min-width: 575px) {
+  .mobile-list {
+    flex-direction: row;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .desktop-list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+}

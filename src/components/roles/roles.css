@@ -1,0 +1,120 @@
+/*-----------------------------------*\
+  #ROLES
+\*-----------------------------------*/
+
+.roles {
+  padding-top: var(--section-spacing);
+  padding-block-end: 0;
+}
+
+.role-intro {
+  display: none;
+}
+
+.role-names .section-subtitle {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.team-role {
+  margin-bottom: 2rem;
+}
+
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.role-intro .text-wrapper {
+  padding-bottom: 3rem;
+}
+
+.role-intro .text-wrapper a {
+  display: inline;
+}
+
+.role-intro .image-wrapper .card-image {
+  width: 250px;
+}
+
+.title-section .desc-link {
+  color: var(--text-gainsboro);
+  font-size: var(--fontSize-7);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+}
+
+.title-section .desc-link {
+  max-width: max-content;
+  margin-block-start: 5px;
+  padding-inline-start: 30px;
+  transition: var(--transition-1);
+}
+
+.title-section .desc-link::before {
+  top: 50%;
+  left: 0;
+  transform: translateY(-100%);
+  width: 20px;
+  height: 4px;
+  background-color: var(--bg-purple);
+}
+
+.title-section .desc-link:is(:hover, :focus-visible) {
+  color: var(--text-pink);
+}
+
+.role-desc,
+.read-less,
+.desc-link.show-text {
+  display: none;
+}
+
+.role-desc.show-text {
+  display: block;
+}
+
+.role-title {
+  font-weight: var(--weight-bold);
+}
+
+.role-desc li {
+  padding-bottom: 0.5rem;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (min-width: 768px) {
+  .roles .container {
+    width: 768px;
+  }
+
+  .role-intro,
+  .season-desc .image-wrapper {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .role-intro .text-wrapper {
+    width: 90%;
+    padding-top: 0;
+  }
+
+  .role-intro p span {
+    padding-top: 1rem;
+  }
+
+  .season-desc .image-wrapper p {
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .role-intro {
+    padding-top: 1rem;
+  }
+}

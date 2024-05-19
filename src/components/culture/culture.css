@@ -1,0 +1,60 @@
+/*-----------------------------------*\
+  #CULTURE
+\*-----------------------------------*/
+
+.culture .p1,
+.culture .p2,
+.culture img {
+  display: none;
+}
+
+.culture .image-wrapper {
+  margin-bottom: -4rem;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (min-width: 575px) {
+  .culture-desc .p2 {
+    display: block;
+    padding-top: 1.5rem;
+  }
+
+  .culture .image-wrapper {
+    margin-bottom: -2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .culture .image-wrapper {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .culture .shield-logo {
+    display: block;
+    width: 220px;
+  }
+
+  .culture-desc .p1 {
+    display: block;
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .culture .container {
+    max-width: 960px;
+  }
+
+  .culture .shield-logo {
+    width: 200px;
+  }
+
+  .culture .image-wrapper p {
+    padding-top: 1.5rem;
+  }
+}

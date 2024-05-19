@@ -1,0 +1,31 @@
+/*-----------------------------------*\
+    #POLICY
+\*-----------------------------------*/
+
+.policy,
+.terms {
+  padding-top: 12rem;
+}
+
+.policy h2,
+.terms h2,
+.policy h3,
+.terms h3,
+.policy h4,
+.terms h4 {
+  padding: 1.5rem 0 0.5rem;
+  color: var(--text-champagne-pink);
+}
+
+.policy li,
+.terms li,
+.policy p,
+.terms p {
+  padding: 0.5rem 0;
+}
+
+.policy p a,
+.terms p a {
+  display: inline;
+  margin: 0 5px;
+}

@@ -1,0 +1,56 @@
+/*-----------------------------------*\
+  #IDENTITY
+\*-----------------------------------*/
+
+.identity {
+  padding-top: 16rem;
+  text-align: center;
+}
+
+.mission .logo,
+.p1,
+.p2 {
+  display: none;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (min-width: 575px) {
+  .p2 {
+    display: block;
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .mission .image-wrapper {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .mission .logo {
+    display: block;
+    width: 270px;
+  }
+
+  .p1 {
+    display: block;
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .identity .container {
+    max-width: 940px;
+  }
+
+  .mission .logo-text {
+    margin-top: 4.5rem;
+  }
+
+  .mission .logo {
+    width: 240px;
+  }
+}

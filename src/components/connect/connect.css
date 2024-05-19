@@ -1,0 +1,59 @@
+/*-----------------------------------*\
+  #CONNECT
+\*-----------------------------------*/
+
+.connect {
+  text-align: center;
+}
+
+.contact-inputs {
+  gap: 0;
+}
+
+.contact-inputs .contact-content {
+  clip-path: var(--clip-path-3);
+}
+
+.contact-content {
+  background-color: var(--bg-purple-alpha-30);
+  padding: 0.75rem 1rem 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.contact-content textarea {
+  resize: none;
+}
+
+.contact-input {
+  width: 100%;
+  background-color: transparent;
+  color: var(--text-white);
+  border: none;
+  outline: none;
+  padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+/*-----------------------------------*\
+  #MEDIA QUERIES
+\*-----------------------------------*/
+
+@media screen and (max-width: 375px) {
+  .contact-form {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width: 575px) {
+  .contact-inputs {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .contact-form {
+    padding-left: 0;
+    padding-right: 0;
+    width: 450px;
+    margin: 0 auto;
+  }
+}
