@@ -51,6 +51,7 @@ const Wallpaper = () => {
                   href={file}
                   className="card-tag"
                   text="Download"
+                  download
                 ></Button>
               </div>
             </div>
@@ -77,6 +78,7 @@ const Wallpaper = () => {
                   href={file5}
                   className="card-tag"
                   text="Download"
+                  download
                 ></Button>
               </div>
             </div>
@@ -105,6 +107,7 @@ const Wallpaper = () => {
                   href={file2}
                   className="card-tag"
                   text="Download"
+                  download
                 ></Button>
               </div>
             </div>
@@ -131,6 +134,7 @@ const Wallpaper = () => {
                   href={file3}
                   className="card-tag"
                   text="Download"
+                  download
                 ></Button>
               </div>
             </div>
@@ -157,6 +161,7 @@ const Wallpaper = () => {
                   href={file4}
                   className="card-tag"
                   text="Download"
+                  download
                 ></Button>
               </div>
             </div>
