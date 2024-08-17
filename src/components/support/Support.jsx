@@ -10,20 +10,18 @@ const Support = () => {
   return (
     <section className="section support" aria-label="how to join">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          How You Can Help
-        </p>
+        <p className="section-subtitle">How You Can Help</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           <span className="span">Support</span> the Team
         </h2>
 
         <div className="donate">
-          <div className="img-wrapper" data-aos="fade-right">
+          <div className="img-wrapper">
             <img src={img} alt="Black Believe in Yourself apparel" />
           </div>
 
-          <p className="reason" data-aos="fade-left">
+          <p className="reason">
             X-Element is actively seeking financial support to send its teams to
             Kansas City's Midwest Fest for their first LAN performance June 7-9.
             <br />
@@ -41,7 +39,7 @@ const Support = () => {
             reality.
           </p>
 
-          <div className="link-wrapper" data-aos="zoom-in">
+          <div className="link-wrapper">
             <div className="neon-border-top"></div>
             <ul className="social-list">
               <li>
@@ -79,7 +77,7 @@ const Support = () => {
             </ul>
           </div>
 
-          <p className="tiers" data-aos="fade-right">
+          <p className="tiers">
             Donations: <br />
             <span>(Tier 1 = $50)</span> Shirt - 50 Available
             <br />

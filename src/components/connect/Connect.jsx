@@ -1,18 +1,20 @@
+import Button from "../button/Button";
+
 import "./connect.css";
 
 const Connect = () => {
   return (
     <section className="section connect">
       <div className="container">
-        <p className="section-subtitle revealed" data-aos="fade-up">
+        <p className="section-subtitle revealed">
           Questions, Comments, Concerns?
         </p>
 
-        <h2 className="h2 section-title revealed" data-aos="fade-up">
+        <h2 className="h2 section-title revealed">
           <span className="span">Connect</span> With Us
         </h2>
 
-        <form className="contact-form" method="POST" data-aos="zoom-in">
+        <form className="contact-form" method="POST">
           <div className="contact-inputs">
             <div className="contact-content">
               <label for="" className="contact-label">
@@ -52,9 +54,7 @@ const Connect = () => {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn">
-            Send Message
-          </button>
+          <Button type="submit" text="Send Message" className="btn" />
 
           <input type="hidden" name="_subject" value="Contact Form Submitted" />
           <input type="hidden" name="_honeypot" value="" />

@@ -1,4 +1,4 @@
-import astronauts from "../../assets/astronauts.png";
+import astronauts from "../../assets/astronauts.webp";
 
 import "./elements.css";
 
@@ -6,11 +6,9 @@ const Elements = () => {
   return (
     <section className="section elements" aria-label="choose your element">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Choose an Element
-        </p>
+        <p className="section-subtitle">Choose an Element</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           Embrace Your <span className="span">Nature</span>
         </h2>
 
@@ -43,7 +41,7 @@ const Elements = () => {
               </p>
             </div>
 
-            <div className="image-wrapper" data-aos="zoom-in">
+            <div className="image-wrapper">
               <img
                 className="card-image"
                 src={astronauts}

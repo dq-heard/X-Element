@@ -1,4 +1,4 @@
-import shield from "../../assets/shield.jpg";
+import shield from "../../assets/shield.webp";
 
 import "./culture.css";
 
@@ -6,17 +6,15 @@ const Culture = () => {
   return (
     <section className="section culture" aria-label="our culture">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Upholding Our Code
-        </p>
+        <p className="section-subtitle">Upholding Our Code</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           <span className="span">Integrity</span> and Respect
         </h2>
 
-        <div className="container" data-aos="fade-right">
+        <div className="container">
           <div className="text-wrapper">
-            <div className="culture-desc" data-aos="fade-right">
+            <div className="culture-desc">
               <div className="image-wrapper">
                 <img
                   className="shield-logo"
@@ -33,7 +31,7 @@ const Culture = () => {
                 </p>
                 <br />
               </div>
-              <p className="p1" data-aos="fade-right">
+              <p className="p1">
                 Furthermore, we're proud to have members excelling in their
                 collegiate endeavors. They represent our organization with
                 dedication and skill, showcasing the incredible talent that
@@ -42,7 +40,7 @@ const Culture = () => {
                 chasing e-Sports greatness.
                 <br />
               </p>
-              <p className="p2" data-aos="fade-right">
+              <p className="p2">
                 We invite you to connect with us and eagerly await interactions
                 with fellow gamers, sponsors, and industry professionals as we
                 forge our path within this space and inspire a new generation to

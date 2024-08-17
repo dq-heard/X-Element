@@ -1,7 +1,7 @@
 import Button from "../button/Button";
 
-import logo from "../../assets/glytch.png";
-import wordmark from "../../assets/glytch(1).png";
+import logo from "../../assets/glytch.webp";
+import wordmark from "../../assets/glytch(1).webp";
 
 import "./sponsor.css";
 
@@ -9,15 +9,13 @@ const Sponsor = () => {
   return (
     <section className="section sponsor" aria-label="glytch energy sponsor">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          We've Joined Forces
-        </p>
+        <p className="section-subtitle">We've Joined Forces</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           With <span className="span">Glytch</span> Energy
         </h2>
 
-        <div className="glytch" data-aos="fade-right">
+        <div className="glytch">
           <div className="image-wrapper">
             <img className="logo" src={logo} alt="Glytch Energy logo" />
 

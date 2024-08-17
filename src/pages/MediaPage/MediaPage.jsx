@@ -7,7 +7,7 @@ import Wallpaper from "../../components/wallpaper/Wallpaper";
 import Newsletter from "../../components/newsletter/Newsletter";
 import Footer from "../../components/footer/Footer";
 
-import img from "../../assets/body-bg-2.jpg";
+import img from "../../assets/body-bg-2.webp";
 
 const MediaPage = () => {
   useEffect(() => {

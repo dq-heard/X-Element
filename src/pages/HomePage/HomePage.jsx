@@ -7,7 +7,7 @@ import CTA from "../../components/cta/CTA";
 import Roles from "../../components/roles/Roles";
 import Footer from "../../components/footer/Footer";
 
-import img from "../../assets/body-bg-0.jpg";
+import img from "../../assets/body-bg-0.webp";
 
 const HomePage = () => {
   useEffect(() => {

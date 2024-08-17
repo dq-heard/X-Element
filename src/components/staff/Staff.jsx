@@ -41,24 +41,20 @@ const Staff = () => {
   return (
     <section className="section staff" aria-label="meet the staff">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Feel the Spirit
-        </p>
+        <p className="section-subtitle">Feel the Spirit</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           Meet Our <span className="span">Core</span>
         </h2>
 
-        <div data-aos="fade-right">
-          <div className="video-wrapper">
-            <iframe
-              src="https://www.youtube.com/embed/videoseries?si=7shdlK6SsPPpWXwg&amp;list=PLjZJjTdaS1_JSFXtm2kLX9S-ftCWq8PFP"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </div>
+        <div className="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/videoseries?si=7shdlK6SsPPpWXwg&amp;list=PLjZJjTdaS1_JSFXtm2kLX9S-ftCWq8PFP"
+            title="YouTube video player"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          ></iframe>
         </div>
 
         <h3 data-aos="fade-right">The Spirit Squad:</h3>

@@ -1,25 +1,21 @@
 import Card from "./Card.jsx";
 
-import COD from "../../assets/warzone.jpg";
-import Apex from "../../assets/apexlegends.jpg";
-import Fortnite from "../../assets/fortnite.jpg";
-import Paintball from "../../assets/paintball.jpg";
+import COD from "../../assets/warzone.webp";
+import Apex from "../../assets/apexlegends.webp";
+import Fortnite from "../../assets/fortnite.webp";
+import Paintball from "../../assets/paintball.webp";
 
 import "./cta.css";
 
 const CTA = () => {
   return (
-    <section className="cta" aria-label="Join us today" data-reveal="bottom">
+    <section className="cta" aria-label="Join us today">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          X Marks the Spot
-        </p>
+        <p className="section-subtitle">X Marks the Spot</p>
 
-        <h1 className="h1 title cta-title" data-aos="fade-up">
-          Build Your Legacy Here!
-        </h1>
+        <h1 className="h1 title cta-title">Build Your Legacy Here!</h1>
 
-        <p className="section-text" data-aos="fade-up">
+        <p className="section-text">
           As we continue to expand our portfolio and create more opportunities,
           our e-Sports origins remain at our core.
           <span className="span1">Tap into your power. Feed your fire.</span>

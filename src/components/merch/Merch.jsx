@@ -1,10 +1,10 @@
 import Item from "./Item";
-import BoldHoodie from "../../assets/XE-Hoodie-D1-Color-OP2-Source-File.jpg";
-import WiseHoodie from "../../assets/XE-Hoodie-D1-Source-File.jpg";
-import BoldJersey from "../../assets/XE-Jersey-D1-Color-OP2-Source-File.jpg";
-import WiseJersey from "../../assets/XE-Jersey-D1-Source-File.jpg";
-import BoldSweats from "../../assets/XE-Pants-D1-Color-OP2-Source-File.jpg";
-import WiseSweats from "../../assets/XE-Pants-D1-Source-File.jpg";
+import BoldHoodie from "../../assets/XE-Hoodie-D1-Color-OP2-Source-File.webp";
+import WiseHoodie from "../../assets/XE-Hoodie-D1-Source-File.webp";
+import BoldJersey from "../../assets/XE-Jersey-D1-Color-OP2-Source-File.webp";
+import WiseJersey from "../../assets/XE-Jersey-D1-Source-File.webp";
+import BoldSweats from "../../assets/XE-Pants-D1-Color-OP2-Source-File.webp";
+import WiseSweats from "../../assets/XE-Pants-D1-Source-File.webp";
 
 import "./merch.css";
 
@@ -12,15 +12,13 @@ const Merch = () => {
   return (
     <section className="section merch" aria-label="team apparel">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Next Level Apparel
-        </p>
+        <p className="section-subtitle">Next Level Apparel</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           <span className="span">Official</span> Uniforms
         </h2>
 
-        <p className="section-text" data-aos="fade-up">
+        <p className="section-text">
           We offer merch that allows you to proudly showcase your dedication the
           X-Element brand. Show your support with our range of high-quality
           apparel, designed for both comfort & style.

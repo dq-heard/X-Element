@@ -1,8 +1,8 @@
 import Button from "../button/Button";
 
-import Apex from "../../assets/apex.png";
-import Fortnite from "../../assets/fortnite.png";
-import Warzone from "../../assets/warzone.png";
+import Apex from "../../assets/XE-apex.webp";
+import Fortnite from "../../assets/XE-fortnite.webp";
+import Warzone from "../../assets/XE-warzone.webp";
 
 import "../staff/staff.css";
 import "./roster.css";
@@ -11,16 +11,14 @@ const Roster = () => {
   return (
     <section className="section roster" aria-label="team roster breakdown">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Preparing for Takeoff
-        </p>
+        <p className="section-subtitle">Preparing for Takeoff</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           <span className="span">Current</span> Rosters
         </h2>
       </div>
 
-      <div className="roster-wrapper container" data-aos="fade-right">
+      <div className="roster-wrapper container">
         <div className="teams apex">
           <div className="image-wrapper">
             <img
@@ -67,7 +65,7 @@ const Roster = () => {
         <div className="neon-border-bottom"></div>
       </div>
 
-      <div className="roster-wrapper container" data-aos="fade-left">
+      <div className="roster-wrapper container">
         <div className="teams fortnite">
           <div className="image-wrapper">
             <img
@@ -125,7 +123,7 @@ const Roster = () => {
         <div className="neon-border-bottom"></div>
       </div>
 
-      <div className="roster-wrapper container" data-aos="fade-right">
+      <div className="roster-wrapper container">
         <div className="teams warzone">
           <div className="image-wrapper">
             <img
@@ -154,7 +152,7 @@ const Roster = () => {
         <div className="neon-border-bottom"></div>
       </div>
 
-      <div className="roster-wrapper container" data-aos="zoom-in">
+      <div className="roster-wrapper container">
         <div className="teams paintball">
           <div className="video-wrapper">
             <iframe

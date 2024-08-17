@@ -42,15 +42,13 @@ const Newsletter = () => {
       aria-label="Orbital Blast Newsletter"
     >
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Check Out Our
-        </p>
+        <p className="section-subtitle">Check Out Our</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           Monthly <span className="span">Newsletter</span>
         </h2>
 
-        <p className="section-text" data-aos="fade-up">
+        <p className="section-text">
           Orbital Blast is a digital article that aims to inform community
           members about recent triumphs, relevant news, and other worthy
           highlights.

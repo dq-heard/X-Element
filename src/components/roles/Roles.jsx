@@ -21,15 +21,13 @@ const Roles = () => {
   return (
     <section className="section roles" aria-label="we are recruiting">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Ready to Excel?
-        </p>
+        <p className="section-subtitle">Ready to Excel?</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           Know Your <span className="span">Role</span>
         </h2>
 
-        <div className="role-intro" data-aos="fade-left">
+        <div className="role-intro">
           <div className="text-wrapper">
             <p>
               Greetings, new recruit! We're seeking skilled, passionate pros to

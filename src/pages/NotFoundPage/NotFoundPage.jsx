@@ -4,7 +4,7 @@ import Header from "../../components/header/Header";
 import Error from "../../components/error/Error";
 import Footer from "../../components/footer/Footer";
 
-import img from "../../assets/error-bg.jpg";
+import img from "../../assets/error-bg.webp";
 
 const AboutPage = () => {
   useEffect(() => {

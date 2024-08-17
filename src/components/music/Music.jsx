@@ -4,15 +4,13 @@ const Music = () => {
   return (
     <section className="section music" aria-label="X Element Music">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Conquer the World
-        </p>
+        <p className="section-subtitle">Conquer the World</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           At <span className="span">Maximum</span> Volume
         </h2>
 
-        <div className="songs" data-aos="fade-right">
+        <div className="songs">
           <p className="music-desc">
             Boost your gameplay and tap into your element with two of our
             official anthems. Made for both gamers and dreamers alike, these

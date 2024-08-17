@@ -4,7 +4,7 @@ import Header from "../../components/header/Header";
 import Privacy from "../../components/legal/Privacy";
 import Footer from "../../components/footer/Footer";
 
-import img from "../../assets/legal-bg.jpg";
+import img from "../../assets/legal-bg.webp";
 
 const AboutPage = () => {
   useEffect(() => {

@@ -8,16 +8,12 @@ const Error = () => {
   return (
     <section className="error" aria-label="page not found">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Page Not Found
-        </p>
+        <p className="section-subtitle">Page Not Found</p>
 
-        <h1 className="h1 title cta-title" data-aos="fade-up">
-          404
-        </h1>
+        <h1 className="h1 title cta-title">404</h1>
 
         <div className="flex-container teams">
-          <div className="image-wrapper" data-aos="zoom-in">
+          <div className="image-wrapper">
             <img
               className="card-image"
               src={Astronaut}
@@ -25,7 +21,7 @@ const Error = () => {
             />
           </div>
 
-          <p className="section-text" data-aos="fade-up">
+          <p className="section-text">
             Sorry, the page you are looking for could not be found.
             <Button href="/home" text="Head Back Home" />
           </p>

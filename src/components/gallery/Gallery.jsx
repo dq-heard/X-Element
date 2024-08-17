@@ -23,15 +23,13 @@ const Gallery = () => {
   return (
     <section className="section gallery" aria-hidden="true">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Discover New Heights
-        </p>
+        <p className="section-subtitle">Discover New Heights</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           <span className="span">Elevate</span> Your Game
         </h2>
 
-        <p className="section-text" data-aos="fade-up">
+        <p className="section-text">
           Are you ready to rise to the top and carve your path to eternal glory?
           X-Element is your ticket to greatness. Join our ranks and unlock your
           true potential. The time is now!

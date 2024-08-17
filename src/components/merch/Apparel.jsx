@@ -1,7 +1,7 @@
 import Item from "./Item";
-import BoldUniform from "../../assets/XE-Apparel-Design-Pack-Color-OP2-JPEG.jpg";
-import WiseUniform from "../../assets/XE-Apparel-Design-JPEG-2.jpg";
-import PoloShirt from "../../assets/Polo_Shirt_03.jpg";
+import BoldUniform from "../../assets/XE-Apparel-Design-Pack-Color-OP2-JPEG.webp";
+import WiseUniform from "../../assets/XE-Apparel-Design-JPEG-2.webp";
+import PoloShirt from "../../assets/Polo_Shirt_03.webp";
 
 import "./merch.css";
 
@@ -9,15 +9,13 @@ const Apparel = () => {
   return (
     <section className="section apparel" aria-label="more team apparel">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Having Trouble Choosing?
-        </p>
+        <p className="section-subtitle">Having Trouble Choosing?</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           <span className="span">Upgrade</span> Your Wardrobe
         </h2>
 
-        <p className="section-text" data-aos="fade-up">
+        <p className="section-text">
           Get all three (the Hoodie, Jersey, and Sweats altogether) in one
           package.
         </p>

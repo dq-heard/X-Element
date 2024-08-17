@@ -8,7 +8,7 @@ import Connect from "../../components/connect/Connect";
 import Prefooter from "../../components/footer/Prefooter";
 import Footer from "../../components/footer/Footer";
 
-import img from "../../assets/body-bg-1.jpg";
+import img from "../../assets/body-bg-1.webp";
 
 const AboutPage = () => {
   useEffect(() => {

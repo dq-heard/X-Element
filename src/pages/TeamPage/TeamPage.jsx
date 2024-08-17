@@ -6,7 +6,7 @@ import Roster from "../../components/roster/Roster";
 import Prefooter from "../../components/footer/Prefooter";
 import Footer from "../../components/footer/Footer";
 
-import img from "../../assets/body-bg-5.jpg";
+import img from "../../assets/body-bg-5.webp";
 const TeamPage = () => {
   useEffect(() => {
     // Save original body background

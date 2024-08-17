@@ -32,7 +32,7 @@
 }
 
 .header .logo:hover {
-  -webkit-text-stroke: 1px var(--border-red);
+  text-decoration: none;
 }
 
 .header.active {

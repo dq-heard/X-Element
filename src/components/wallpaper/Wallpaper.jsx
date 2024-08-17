@@ -1,10 +1,10 @@
 import Button from "../button/Button";
 
-import img from "../../assets/Wallpaper 1 Preview.png";
-import img2 from "../../assets/Wallpaper 2 Preview.png";
-import img3 from "../../assets/Wallpaper 3 Preview.png";
-import img4 from "../../assets/Wallpaper 4 Preview.png";
-import img5 from "../../assets/Wallpaper 5 Preview.png";
+import img from "../../assets/Wallpaper 1 Preview.webp";
+import img2 from "../../assets/Wallpaper 2 Preview.webp";
+import img3 from "../../assets/Wallpaper 3 Preview.webp";
+import img4 from "../../assets/Wallpaper 4 Preview.webp";
+import img5 from "../../assets/Wallpaper 5 Preview.webp";
 
 import file from "../../assets/XElement Wallpaper 1.png";
 import file2 from "../../assets/XElement Wallpaper 2.png";
@@ -21,11 +21,9 @@ const Wallpaper = () => {
       aria-label="Wallpapers for Mobile/Desktop"
     >
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          Show Your Pride With
-        </p>
+        <p className="section-subtitle">Show Your Pride With</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           Exclusive <span className="span">Wallpapers</span>
         </h2>
 

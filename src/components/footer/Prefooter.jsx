@@ -1,3 +1,4 @@
+import Button from "../button/Button";
 import logo from "../../assets/logo.png";
 
 import "./prefooter.css";
@@ -165,9 +166,12 @@ const Prefooter = () => {
                 className="input-field"
               />
 
-              <button type="submit" className="btn" data-btn="">
-                Subscribe Now
-              </button>
+              <Button
+                type="submit"
+                text="Subscribe Now"
+                className="btn"
+                data-btn=""
+              />
             </form>
           </div>
         </div>

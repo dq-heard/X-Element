@@ -6,15 +6,13 @@ const Identity = () => {
   return (
     <section className="section identity" aria-label="mission and identity">
       <div className="container">
-        <p className="section-subtitle" data-aos="fade-up">
-          What Is X-Element?
-        </p>
+        <p className="section-subtitle">What Is X-Element?</p>
 
-        <h2 className="h2 section-title" data-aos="fade-up">
+        <h2 className="h2 section-title">
           Mission and <span className="span">Identity</span>
         </h2>
 
-        <div className="mission" data-aos="fade-right">
+        <div className="mission">
           <article>
             <div className="image-wrapper">
               <img className="logo" src={logo} alt="X Element logo" />

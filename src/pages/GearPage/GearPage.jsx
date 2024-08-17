@@ -6,7 +6,7 @@ import Apparel from "../../components/merch/Apparel";
 import Support from "../../components/support/Support";
 import Footer from "../../components/footer/Footer";
 
-import img from "../../assets/body-bg-3.jpg";
+import img from "../../assets/body-bg-3.webp";
 
 const GearPage = () => {
   useEffect(() => {

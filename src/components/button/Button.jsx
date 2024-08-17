@@ -32,6 +32,7 @@ const Button = (props) => {
       data-btn
       ref={buttonRef}
       onClick={props.onClick}
+      download={props.download ? "" : undefined}
     >
       {props.text}
     </Tag>
