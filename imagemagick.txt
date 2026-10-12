@@ -1,0 +1,3 @@
+# Extract background width dynamically and scale the top image to match
+BG_WIDTH=$(magick identify -format "%w" cta-banner-bg.png)
+magick cta-banner-bg.png \( cta-banner.png -resize "${BG_WIDTH}x" \) -gravity center -composite cta_banner_composite.png

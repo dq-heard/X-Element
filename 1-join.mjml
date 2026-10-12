@@ -1,0 +1,229 @@
+<mjml>
+  <mj-head>
+    <mj-title>X-Element Rosters &amp; Recruitment</mj-title>
+    
+    <!-- Oxanium Google Font -->
+    <mj-font name="Oxanium" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&display=swap" />
+    
+    <mj-attributes>
+      <mj-all font-family="'Oxanium', Arial, Helvetica, sans-serif" color="#dcdaf0" />
+      <mj-text font-size="15px" line-height="23px" padding="0px" />
+      <mj-section background-color="#140014" padding="20px 10px" />
+      <mj-column padding="0px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .neon-pink {
+        color: #e64ce0 !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#040005" width="600px">
+
+    <!-- GLOBAL HEADER -->
+    <mj-section background-color="#0c010d" padding="15px 20px" border-bottom="1px solid #28102b">
+      <mj-column width="70%" vertical-align="middle">
+        <mj-table padding="0px">
+          <tr>
+            <td style="width: 45px;">
+              <img src="images/logo.png" alt="X-Element Logo" width="40" height="40" style="display:block;" />
+            </td>
+            <td style="font-family:'Oxanium', Arial, sans-serif; font-weight:700; font-size:20px; color:#ffffff; vertical-align:middle;">
+              X-ELEMENT
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+
+      <mj-column width="30%" vertical-align="middle">
+        <mj-button background-color="#e64ce0" color="#ffffff" font-weight="700" font-size="13px" border-radius="2px" href="#" padding="5px 0px">
+          JOIN OUR TEAM
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- HERO BANNER -->
+    <mj-section padding-top="35px" padding-bottom="20px">
+      <mj-column width="100%">
+        <mj-text align="center">
+          Unite and Conquer
+        </mj-text>
+        <mj-text align="center" font-size="28px" font-weight="700" color="#ffffff" padding-top="5px">
+          SETTING UP OUR <span class="neon-pink">SQUADS</span>
+        </mj-text>
+        <mj-text align="center" color="#cccccc" padding="10px 20px 0px 20px">
+          Check out our official competitive divisions, active player updates, and open team positions below.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- 6-TEAM GRID -->
+    <mj-section padding-top="10px" padding-bottom="10px">
+      <mj-column width="48%" background-color="#150518" inner-border="1px solid #28102b">
+        <mj-image src="images/warzone.jpg" alt="CoD Warzone" padding="0px" href="#" />
+        <mj-text align="center" font-weight="700" font-size="16px" padding="12px" color="#ffffff">CoD: Warzone</mj-text>
+      </mj-column>
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+      <mj-column width="48%" background-color="#150518" inner-border="1px solid #28102b">
+        <mj-image src="images/rocketleague.jpg" alt="Rocket League" padding="0px" href="#" />
+        <mj-text align="center" font-weight="700" font-size="16px" padding="12px" color="#ffffff">Rocket League</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="10px">
+      <mj-column width="48%" background-color="#150518" inner-border="1px solid #28102b">
+        <mj-image src="images/apexlegends.jpg" alt="Apex Legends" padding="0px" href="#" />
+        <mj-text align="center" font-weight="700" font-size="16px" padding="12px" color="#ffffff">Apex Legends</mj-text>
+      </mj-column>
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+      <mj-column width="48%" background-color="#150518" inner-border="1px solid #28102b">
+        <mj-image src="images/valorant.jpg" alt="Valorant" padding="0px" href="#" />
+        <mj-text align="center" font-weight="700" font-size="16px" padding="12px" color="#ffffff">Valorant</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="30px">
+      <mj-column width="48%" background-color="#150518" inner-border="1px solid #28102b">
+        <mj-image src="images/fortnite.jpg" alt="Fortnite" padding="0px" href="#" />
+        <mj-text align="center" font-weight="700" font-size="16px" padding="12px" color="#ffffff">Fortnite</mj-text>
+      </mj-column>
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+      <mj-column width="48%" background-color="#150518" inner-border="1px solid #28102b">
+        <mj-image src="images/overwatch.jpg" alt="Overwatch" padding="0px" href="#" />
+        <mj-text align="center" font-weight="700" font-size="16px" padding="12px" color="#ffffff">Overwatch</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION: ACTIVE ROSTERS BREAKDOWN -->
+    <mj-section padding-top="10px" padding-bottom="15px">
+      <mj-column width="100%">
+        <mj-text align="center">Preparing for Takeoff</mj-text>
+        <mj-text align="center" font-size="26px" font-weight="700" color="#ffffff" padding-top="5px">
+          CURRENT <span class="neon-pink">ROSTERS</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- APEX LEGENDS -->
+    <mj-section padding-top="0px" padding-bottom="15px">
+      <mj-column width="100%" background-color="#150518" padding="20px" inner-border="1px solid #28102b">
+        <mj-image src="images/XE-apex.png" alt="Apex Legends Roster Graphic" width="520px" padding-bottom="15px" />
+        <mj-text font-size="18px" font-weight="700" color="#ffffff" padding-bottom="8px">APEX LEGENDS SQUAD</mj-text>
+        <mj-text color="#dddddd" padding-bottom="12px">
+          <a href="https://www.twitch.tv/liipo_" style="color:#f1d6c6; text-decoration:none; font-weight:700;">Lipo</a>, 
+          <a href="https://www.twitch.tv/xelnaughtyy" style="color:#f1d6c6; text-decoration:none; font-weight:700;">Naughty</a>, &amp; 
+          <a href="https://www.twitch.tv/blu3chr0n1c" style="color:#f1d6c6; text-decoration:none; font-weight:700;">Blu3Chr0n1c</a> qualified for Round 3 of ALGS.
+        </mj-text>
+        <mj-button background-color="transparent" border="1px solid #e64ce0" color="#e64ce0" font-weight="700" font-size="12px" href="#">
+          DISCORD &amp; BOOKINGS (CONTACT PHILOSOPHYZ)
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- FORTNITE -->
+    <mj-section padding-top="0px" padding-bottom="15px">
+      <mj-column width="100%" background-color="#150518" padding="20px" inner-border="1px solid #28102b">
+        <mj-image src="images/XE-fortnite.png" alt="Fortnite Roster Graphic" width="520px" padding-bottom="15px" />
+        <mj-text font-size="18px" font-weight="700" color="#ffffff" padding-bottom="8px">FORTNITE</mj-text>
+        <mj-text color="#dddddd" padding-bottom="12px">
+          Competing for six years, <strong style="color:#f1d6c6;">Jeralz</strong> has excelled in iRacing and advanced to Round 3 of FNCS.
+        </mj-text>
+        <mj-social font-size="12px" icon-size="22px" mode="horizontal" align="left">
+          <mj-social-element name="youtube" href="https://www.youtube.com/@Jeralz1" background-color="#28102b" />
+          <mj-social-element name="instagram" href="https://www.instagram.com/jeralz_fr" background-color="#28102b" />
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <!-- WARZONE -->
+    <mj-section padding-top="0px" padding-bottom="15px">
+      <mj-column width="100%" background-color="#150518" padding="20px" inner-border="1px solid #28102b">
+        <mj-image src="images/XE-warzone.png" alt="Warzone Graphic" width="520px" padding-bottom="15px" />
+        <mj-text font-size="18px" font-weight="700" color="#ffffff" padding-bottom="8px">CALL OF DUTY: WARZONE</mj-text>
+        <mj-text color="#dddddd" padding-bottom="12px">
+          Led by former semi-pro <strong style="color:#f1d6c6;">FaZeBella</strong>, our Call of Duty team reached Round 2 of the CDL.
+        </mj-text>
+        <mj-button background-color="transparent" border="1px solid #e64ce0" color="#e64ce0" font-weight="700" font-size="12px" href="#">
+          DISCORD &amp; BOOKINGS (CONTACT BELLA)
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- PAINTBALL -->
+    <mj-section padding-top="0px" padding-bottom="30px">
+      <mj-column width="100%" background-color="#150518" padding="20px" border="1px solid #a3149c">
+        <mj-image src="images/rs_w_600_cg_true-CroR1VT-.png" alt="Paintball Video" width="520px" padding-bottom="15px" href="https://www.youtube.com/watch?v=8gKoF6ZUyt0" />
+        <mj-text font-size="18px" font-weight="700" color="#ffffff" padding-bottom="8px">PAINTBALL SQUAD</mj-text>
+        <mj-text color="#dddddd" padding-bottom="12px">
+          Led by Paintball Coach <strong style="color:#f1d6c6;">Texn</strong>, our team is defined by strategic gameplay and camaraderie.
+        </mj-text>
+        <mj-button background-color="#e64ce0" color="#ffffff" font-weight="700" font-size="12px" href="#">
+          DISCORD &amp; BOOKINGS (CONTACT TEXN)
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION: OPEN ROLES (STAFF RECRUITMENT) -->
+    <mj-section padding-top="10px" padding-bottom="15px">
+      <mj-column width="100%">
+        <mj-text align="center">We Are Recruiting</mj-text>
+        <mj-text align="center" font-size="26px" font-weight="700" color="#ffffff" padding-top="5px">
+          KNOW YOUR <span class="neon-pink">ROLE</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="30px">
+      <mj-column width="100%" background-color="#150518" padding="20px" inner-border="1px solid #28102b">
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="4px" >• Discord Mod Manager</mj-text>
+        <mj-text color="#aaaaaa" padding-bottom="12px" padding-left="15px">Manages the moderation team, ensuring an inclusive cultural environment.</mj-text>
+
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="4px" >• Social Media Manager</mj-text>
+        <mj-text color="#aaaaaa" padding-bottom="12px" padding-left="15px">Creates engaging content, schedules posts, and interacts with the community.</mj-text>
+
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="4px" >• Head &amp; Assistant Coaches</mj-text>
+        <mj-text color="#aaaaaa" padding-bottom="12px" padding-left="15px">Provide guidance, leadership, and mentorship to game-specific squads.</mj-text>
+
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="4px" >• Team Analysts</mj-text>
+        <mj-text color="#aaaaaa" padding-bottom="15px" padding-left="15px">Monitors squad performances, opponents, and gameplay data.</mj-text>
+
+        <mj-button background-color="#e64ce0" color="#ffffff" font-weight="700" href="#">
+          APPLY FOR A ROLE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- GLOBAL FOOTER -->
+    <mj-section background-color="#09010a" padding="30px 15px 10px 15px" border-top="2px solid #a3149c">
+      <mj-column width="50%" padding="10px">
+        <mj-text font-size="20px" font-weight="700" color="#ffffff" padding-bottom="10px">X-ELEMENT</mj-text>
+        <mj-text color="#aaaaaa" font-size="14px" padding-bottom="15px">Follow Our Socials!</mj-text>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="left" padding="0px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/groups/1176119786245217/" background-color="#28102b" />
+          <mj-social-element name="instagram" href="https://www.instagram.com/x_elementgaming/" background-color="#28102b" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/channel/UCG9KpfH_p__Dacvsxd00Dzg" background-color="#28102b" />
+        </mj-social>
+      </mj-column>
+
+      <mj-column width="50%" padding="10px">
+       
+        <mj-text padding-bottom="10px">CONTACT US</mj-text>
+        <mj-text font-size="13px" color="#aaaaaa">
+          Location: Junction City, KS 66441<br />
+          Email: <a href="mailto:officialxelement@gmail.com" style="color:#e64ce0; text-decoration:none;">officialxelement@gmail.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- COPYRIGHT -->
+    <mj-section background-color="#040005" padding="15px 10px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="12px" color="#666666">
+          © 2023 X-Element LLC - All Rights Reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

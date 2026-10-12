@@ -1,0 +1,206 @@
+<mjml>
+  <mj-head>
+    <mj-title>Welcome to X-Element</mj-title>
+    
+    <!-- Oxanium Google Font -->
+    <mj-font name="Oxanium" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&display=swap" />
+    
+    <mj-attributes>
+      <mj-all font-family="'Oxanium', Arial, Helvetica, sans-serif" color="#dcdaf0" />
+      <mj-text font-size="15px" line-height="23px" padding="0px" />
+      <mj-section background-color="#140014" padding="20px 10px" />
+      <mj-column padding="0px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .neon-pink {
+        color: #e64ce0 !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#040005" width="600px">
+
+    <!-- GLOBAL HEADER -->
+    <mj-section background-color="#0c010d" padding="15px 20px" border-bottom="1px solid #28102b">
+      <mj-column width="70%" vertical-align="middle">
+        <mj-table padding="0px">
+          <tr>
+            <td style="width: 45px;">
+              <img src="images/logo.png" alt="X-Element Logo" width="40" height="40" style="display:block;" />
+            </td>
+            <td style="font-family:'Oxanium', Arial, sans-serif; font-weight:700; font-size:20px; color:#ffffff; vertical-align:middle;">
+              X-ELEMENT
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+
+      <mj-column width="30%" vertical-align="middle">
+        <mj-button background-color="#e64ce0" color="#ffffff" font-weight="700" font-size="13px" border-radius="2px" href="#" padding="5px 0px">
+          JOIN OUR TEAM
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- HERO BANNER -->
+    <mj-section padding-top="35px" padding-bottom="20px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="28px" font-weight="700" color="#ffffff" padding-top="5px">
+          WELCOME TO <span class="neon-pink">X-ELEMENT</span>
+        </mj-text>
+        <mj-text align="center" color="#cccccc" padding="10px 20px 0px 20px">
+          X-Element is a Professional e-Sports organization that's growing daily. What are you waiting for?
+        </mj-text>
+
+        <!-- Flattened Single Graphic (cta-banner + cta-banner-bg combined) -->
+        <mj-image src="images/cta_banner_composite.png" alt="X-Element Leave Your Mark" width="540px" padding="0px" href="#" />
+
+        <!-- Email-Safe Accent Line -->
+        <mj-divider border-width="2px" border-style="solid" border-color="#e64ce0" width="75%" padding="0px" />
+
+        <!-- Bottom Accent Divider -->
+        <mj-divider border-width="1px" border-style="solid" border-color="#28102b" width="100%" padding-top="20px" padding-bottom="0px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 1: MISSION & IDENTITY -->
+    <mj-section padding-top="10px" padding-bottom="30px">
+      <mj-column width="100%" background-color="#150518" padding="20px" inner-border="1px solid #28102b">
+        <mj-text align="center" padding-bottom="5px">
+          What Is X-Element?
+        </mj-text>
+        <mj-text align="center" font-size="22px" font-weight="700" color="#ffffff" padding-bottom="15px">
+          OUR MISSION &amp; <span class="neon-pink">IDENTITY</span>
+        </mj-text>
+        <mj-text padding-bottom="12px" color="#dddddd">
+          The 'X' serves as a metaphor for the core challenge we all confront: <em>"How do I carve my niche in this landscape?"</em> The 'E' represents us as individuals and the power we possess as a group when we tie our love for gaming into professional aspirations.
+        </mj-text>
+        <mj-text color="#dddddd">
+          Constructing a thriving team is a formidable challenge. X-Element emphasizes rigorous talent discovery, discovering untapped potential, and empowering individuals to shine on a global stage.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 2: EMBRACE YOUR NATURE (THE 5 ELEMENTS) -->
+    <mj-section padding-top="10px" padding-bottom="15px">
+      <mj-column width="100%">
+        <mj-text align="center" >
+          Ready to Excel
+        </mj-text>
+        <mj-text align="center" font-size="26px" font-weight="700" color="#ffffff" padding-top="5px">
+          EMBRACE YOUR <span class="neon-pink">NATURE</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Elements Grid: Row 1 -->
+    <mj-section padding-top="0px" padding-bottom="10px">
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="6px">🔥 FIRE</mj-text>
+        <mj-text font-size="14px" color="#cccccc">Competitive players forged in the heat of online play.</mj-text>
+      </mj-column>
+
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="6px">💨 WIND</mj-text>
+        <mj-text font-size="14px" color="#cccccc">Content creators and streamers broadcasting our wins.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Elements Grid: Row 2 -->
+    <mj-section padding-top="0px" padding-bottom="10px">
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="6px">🪴 EARTH</mj-text>
+        <mj-text font-size="14px" color="#cccccc">Moderators solidifying community culture and safety.</mj-text>
+      </mj-column>
+
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="6px">💧 WATER</mj-text>
+        <mj-text font-size="14px" color="#cccccc">Supporters, fans, and friends powering our journey.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Spirit Card -->
+    <mj-section padding-top="0px" padding-bottom="30px">
+      <mj-column width="100%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-text font-size="16px" font-weight="700" color="#f1d6c6" padding-bottom="6px">✨ SPIRIT</mj-text>
+        <mj-text font-size="14px" color="#cccccc">Our leadership and staff driving strategic vision behind the scenes.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 3: COMMUNITY GALLERY HIGHLIGHT -->
+    <mj-section padding-top="10px" padding-bottom="15px">
+      <mj-column width="100%">
+        <mj-text align="center">Discover New Heights</mj-text>
+        <mj-text align="center" font-size="26px" font-weight="700" color="#ffffff" padding-top="5px">
+          <span class="neon-pink">ELEVATE</span> YOUR GAME
+        </mj-text>
+        <mj-text align="center" color="#cccccc" padding="10px 20px 15px 20px">
+          Are you ready to rise to the top and carve your path to eternal glory? X-Element is your ticket to greatness. Join our ranks and unlock your true potential!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="10px">
+      <mj-column width="48%" padding-bottom="10px">
+        <mj-image src="images/rs_w_600_cg_true_m-CjDAYS0y.png" alt="Community Event 1" padding="0px" />
+      </mj-column>
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+      <mj-column width="48%" padding-bottom="10px">
+        <mj-image src="images/rs=w_600,cg_true,m.png" alt="Community Event 2" padding="0px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 4: NEWSLETTER SPOTLIGHT -->
+    <mj-section padding-top="20px" padding-bottom="30px">
+      <mj-column width="100%" background-color="#150518" padding="20px" inner-border="1px solid #a3149c">
+        <mj-text align="center"  padding-bottom="5px">Stay Informed</mj-text>
+        <mj-text align="center" font-size="22px" font-weight="700" color="#ffffff" padding-bottom="10px" >
+          ORBITAL BLAST <span class="neon-pink">NEWSLETTER</span>
+        </mj-text>
+        <mj-image src="images/X-Element_Orbital_Blast_2.png" alt="Orbital Blast Cover Preview" width="380px" padding-bottom="15px" href="#" />
+        <mj-text align="center" color="#dddddd" padding-bottom="15px">
+          Catch up on our triumphs, e-sports updates, and community news in our monthly digital publication.
+        </mj-text>
+        <mj-button background-color="#e64ce0" color="#ffffff" font-weight="700" font-size="14px" border-radius="2px" href="#">
+          READ DIGITAL ISSUE (PDF)
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- GLOBAL FOOTER -->
+    <mj-section background-color="#09010a" padding="30px 15px 10px 15px" border-top="2px solid #a3149c">
+      <mj-column width="50%" padding="10px">
+        <mj-text font-size="20px" font-weight="700" color="#ffffff"  padding-bottom="10px">X-ELEMENT</mj-text>
+        <mj-text color="#aaaaaa" font-size="14px" padding-bottom="15px">Follow Our Socials!</mj-text>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="left" padding="0px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/groups/1176119786245217/" background-color="#28102b" />
+          <mj-social-element name="instagram" href="https://www.instagram.com/x_elementgaming/" background-color="#28102b" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/channel/UCG9KpfH_p__Dacvsxd00Dzg" background-color="#28102b" />
+        </mj-social>
+      </mj-column>
+
+      <mj-column width="50%" padding="10px">
+        <mj-text  padding-bottom="10px">CONTACT US</mj-text>
+        <mj-text font-size="13px" color="#aaaaaa">
+          Location: Junction City, KS 66441<br />
+          Email: <a href="mailto:officialxelement@gmail.com" style="color:#e64ce0; text-decoration:none;">officialxelement@gmail.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- COPYRIGHT -->
+    <mj-section background-color="#040005" padding="15px 10px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="12px" color="#666666">
+          © 2023 X-Element LLC - All Rights Reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>

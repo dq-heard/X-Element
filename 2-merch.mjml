@@ -1,0 +1,198 @@
+<mjml>
+  <mj-head>
+    <mj-title>X-Element Merch Drop &amp; Exclusive Perks</mj-title>
+    
+    <!-- Oxanium Google Font -->
+    <mj-font name="Oxanium" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&display=swap" />
+    
+    <mj-attributes>
+      <mj-all font-family="'Oxanium', Arial, Helvetica, sans-serif" color="#dcdaf0" />
+      <mj-text font-size="15px" line-height="23px" padding="0px" />
+      <mj-section background-color="#140014" padding="20px 10px" />
+      <mj-column padding="0px" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .neon-pink {
+        color: #e64ce0 !important;
+      }
+    </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#040005" width="600px">
+
+    <!-- GLOBAL HEADER -->
+    <mj-section background-color="#0c010d" padding="15px 20px" border-bottom="1px solid #28102b">
+      <mj-column width="70%" vertical-align="middle">
+        <mj-table padding="0px">
+          <tr>
+            <td style="width: 45px;">
+              <img src="images/logo.png" alt="X-Element Logo" width="40" height="40" style="display:block;" />
+            </td>
+            <td style="font-family:'Oxanium', Arial, sans-serif; font-weight:700; font-size:20px; color:#ffffff; vertical-align:middle;">
+              X-ELEMENT
+            </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+
+      <mj-column width="30%" vertical-align="middle">
+        <mj-button background-color="#e64ce0" color="#ffffff" font-weight="700" font-size="13px" border-radius="2px" href="#" padding="5px 0px">
+          BUY OUR MERCH
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- HERO BANNER -->
+    <mj-section padding-top="35px" padding-bottom="20px">
+      <mj-column width="100%">
+        <mj-text align="center">
+          Next Level Apparel
+        </mj-text>
+        <mj-text align="center" font-size="28px" font-weight="700" color="#ffffff" padding-top="5px" >
+          GEAR DROP &amp; <span class="neon-pink">TEAM PERKS</span>
+        </mj-text>
+        <mj-text align="center" color="#cccccc" padding="10px 20px 0px 20px">
+          Rep the brand with our official uniforms, grab exclusive sponsor discounts, and download community wallpapers below.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 1: SPONSOR SPOTLIGHT (GLYTCH ENERGY) -->
+    <mj-section padding-top="10px" padding-bottom="30px">
+      <mj-column width="100%" background-color="#150518" padding="25px 20px" border="1px solid #a3149c">
+        <mj-text align="center" padding-bottom="5px">We've Joined Forces</mj-text>
+        <mj-text align="center" font-size="22px" font-weight="700" color="#ffffff" padding-bottom="15px">
+          GLYTCH <span class="neon-pink">ENERGY</span>
+        </mj-text>
+        
+        <mj-image src="images/glytch.png" alt="Glytch Energy Logo" width="280px" padding-bottom="15px" href="https://www.glytchenergy.com" />
+        
+        <mj-text align="center" color="#dddddd" padding-bottom="15px">
+          Power up your game with our official collaboration! Use our exclusive code at checkout for 20% off all Glytch products.
+        </mj-text>
+
+        <mj-table padding="10px 0px">
+          <tr>
+            <td align="center" style="background-color: #0c010d; border: 1px dashed #e64ce0; padding: 12px; border-radius: 4px;">
+              <span style="font-family: 'Oxanium', Arial, sans-serif; font-size: 14px; color: #ffffff; text-transform: uppercase; letter-spacing: 1px;">
+                Use Code: <strong style="color: #e64ce0; font-size: 18px;">X-Element</strong> for <strong style="color: #ffffff;">20% OFF</strong>
+              </span>
+            </td>
+          </tr>
+        </mj-table>
+
+        <mj-button background-color="#e64ce0" color="#ffffff" font-weight="700" font-size="14px" border-radius="2px" href="https://www.glytchenergy.com" padding-top="15px">
+          SHOP GLYTCH ENERGY
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- SECTION 2: OFFICIAL UNIFORMS & MERCH -->
+    <mj-section padding-top="10px" padding-bottom="15px">
+      <mj-column width="100%">
+        <mj-text align="center">Official Apparel</mj-text>
+        <mj-text align="center" font-size="26px" font-weight="700" color="#ffffff" padding-top="5px">
+          TEAM <span class="neon-pink">UNIFORMS</span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Item: Hoodies -->
+    <mj-section padding-top="0px" padding-bottom="10px">
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-image src="images/XE-Hoodie-D1-Color-OP2-Source-File.jpg" alt="Pink Hoodie" width="160px" padding-bottom="10px" href="#" />
+        <mj-text align="center" font-size="16px" font-weight="700" color="#ffffff">Hoodie (Bold)</mj-text>
+      </mj-column>
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-image src="images/XE-Hoodie-D1-Source-File.jpg" alt="Purple Hoodie" width="160px" padding-bottom="10px" href="#" />
+        <mj-text align="center" font-size="16px" font-weight="700" color="#ffffff">Hoodie (Wise)</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="25px">
+      <mj-column width="100%" background-color="#0c010d" padding="10px" inner-border="1px solid #28102b">
+        <mj-text align="center" >$66.00</mj-text>
+        <mj-button background-color="transparent" border="1px solid #e64ce0" color="#e64ce0" font-weight="700" font-size="12px" href="#" padding-top="8px">
+          ORDER HOODIE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Item: Jerseys -->
+    <mj-section padding-top="0px" padding-bottom="10px">
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-image src="images/XE-Jersey-D1-Color-OP2-Source-File.jpg" alt="Pink Jersey" width="160px" padding-bottom="10px" href="#" />
+        <mj-text align="center" font-size="16px" font-weight="700" color="#ffffff">Jersey (Bold)</mj-text>
+      </mj-column>
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #28102b">
+        <mj-image src="images/XE-Jersey-D1-Source-File.jpg" alt="Purple Jersey" width="160px" padding-bottom="10px" href="#" />
+        <mj-text align="center" font-size="16px" font-weight="700" color="#ffffff">Jersey (Wise)</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="25px">
+      <mj-column width="100%" background-color="#0c010d" padding="10px" inner-border="1px solid #28102b">
+        <mj-text align="center">$56.00</mj-text>
+        <mj-button background-color="transparent" border="1px solid #e64ce0" color="#e64ce0" font-weight="700" font-size="12px" href="#" padding-top="8px">
+          ORDER JERSEY
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Full Bundle Offer -->
+    <mj-section padding-top="10px" padding-bottom="10px">
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #a3149c">
+        <mj-image src="images/XE-Apparel-Design-Pack-Color-OP2-JPEG.jpg" alt="Full Uniform Pink" width="160px" padding-bottom="10px" href="#" />
+        <mj-text align="center" font-size="16px" font-weight="700" color="#ffffff">Full Uni (Bold)</mj-text>
+      </mj-column>
+      <mj-column width="4%"><mj-text padding-top="10px" /></mj-column>
+      <mj-column width="48%" background-color="#150518" padding="15px" inner-border="1px solid #a3149c">
+        <mj-image src="images/XE-Apparel-Design-JPEG-2.jpg" alt="Full Uniform Purple" width="160px" padding-bottom="10px" href="#" />
+        <mj-text align="center" font-size="16px" font-weight="700" color="#ffffff">Full Uni (Wise)</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding-top="0px" padding-bottom="30px">
+      <mj-column width="100%" background-color="#0c010d" padding="10px" inner-border="1px solid #a3149c">
+        <mj-text align="center">$182.00</mj-text>
+        <mj-button background-color="#e64ce0" color="#ffffff" font-weight="700" font-size="13px" border-radius="2px" href="#" padding-top="8px">
+          CLAIM FULL UNIFORM BUNDLE
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- GLOBAL FOOTER -->
+    <mj-section background-color="#09010a" padding="30px 15px 10px 15px" border-top="2px solid #a3149c">
+      <mj-column width="50%" padding="10px">
+        <mj-text font-size="20px" font-weight="700" color="#ffffff" padding-bottom="10px">X-ELEMENT</mj-text>
+        <mj-text color="#aaaaaa" font-size="14px" padding-bottom="15px">Follow Our Socials!</mj-text>
+        <mj-social font-size="12px" icon-size="24px" mode="horizontal" align="left" padding="0px">
+          <mj-social-element name="facebook" href="https://www.facebook.com/groups/1176119786245217/" background-color="#28102b" />
+          <mj-social-element name="instagram" href="https://www.instagram.com/x_elementgaming/" background-color="#28102b" />
+          <mj-social-element name="youtube" href="https://www.youtube.com/channel/UCG9KpfH_p__Dacvsxd00Dzg" background-color="#28102b" />
+        </mj-social>
+      </mj-column>
+
+      <mj-column width="50%" padding="10px">
+        <mj-text  padding-bottom="10px">CONTACT US</mj-text>
+        <mj-text font-size="13px" color="#aaaaaa">
+          Location: Junction City, KS 66441<br />
+          Email: <a href="mailto:officialxelement@gmail.com" style="color:#e64ce0; text-decoration:none;">officialxelement@gmail.com</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- COPYRIGHT -->
+    <mj-section background-color="#040005" padding="15px 10px">
+      <mj-column width="100%">
+        <mj-text align="center" font-size="12px" color="#666666">
+          © 2023 X-Element LLC - All Rights Reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
